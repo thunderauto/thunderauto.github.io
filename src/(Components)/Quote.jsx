@@ -136,7 +136,7 @@ const Quote = () => {
                     className="flex items-center justify-center relative group"
                   >
                     {/* <div className=" group-hover:block absolute top-0 left-0 w-full h-full bg-[rgb(0,0,0,.5)]"></div> */}
-                    <img src={data} style={{ filter: 'grayscale(100%)' }}  />
+                    <img src={data}  alt={`Carousel icon ${index + 1}`} style={{ filter: 'grayscale(100%)' }}  />
                   </div>
                 ))}
               </div>

@@ -172,7 +172,7 @@ const Service = () => {
                     className="flex items-center justify-center relative group"
                   >
                     
-                    <img src={data} style={{ filter: 'grayscale(100%)' }}  />
+                    <img src={data}  alt={`Carousel icon ${index + 1}`}  style={{ filter: 'grayscale(100%)' }}  />
                   </div>
                 ))}
               </div>
