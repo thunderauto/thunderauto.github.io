@@ -70,9 +70,12 @@ const Who = () => {
     description="Thunder Auto Offers the Best Mobile Car Lift Designed for Automotive Businesses. Improve Your Workshop Efficiency With Our Best Lifting Solutions" 
 />
       <div className="bg-gray-100 w-full px-4 py-6">
-        <h1 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
+        {/* <h1 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
           Explore Our Products
-        </h1>
+        </h1> */}
+         <h2 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
+          Explore Our Products
+        </h2>
         <p className="font-medium font-Mont text-2xl px-4 text-center">
           Your premier destination for vehicle lifting solutions with a
           Pioneering partnership with German entity. Introducing India's first

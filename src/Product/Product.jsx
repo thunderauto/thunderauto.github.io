@@ -204,13 +204,20 @@ const Build = () => {
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
           <FaQuoteLeft className="text-4xl md:text-9xl text-orange-400" />
-          <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
+          {/* <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             “Thunder ProfiMaster 3000 integrates seamlessly into our commitment
             to enhancing customer service and satisfaction. Thunder ProfiMaster
             3000 transforms the automotive repair landscape, offering tailored
             solutions and innovative features. Invest in the future of
             automotive maintenance with Thunder ProfiMaster 3000.”
-          </h1>
+          </h1> */}
+           <h2 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
+            “Thunder ProfiMaster 3000 integrates seamlessly into our commitment
+            to enhancing customer service and satisfaction. Thunder ProfiMaster
+            3000 transforms the automotive repair landscape, offering tailored
+            solutions and innovative features. Invest in the future of
+            automotive maintenance with Thunder ProfiMaster 3000.”
+          </h2>
         </div>
       </div>
     </div>

@@ -46,9 +46,13 @@ const Why = () => {
 
   return (
     <div className="text-center text-color3 bg-zinc-50 p-10 rounded-lg sm:px-20">
-      <h1 className=" w-full text-xl text-center text-orange-400 tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
+      {/* <h1 className=" w-full text-xl text-center text-orange-400 tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
         Lifting Made Easy
-      </h1>
+      </h1> */}
+
+<h2 className=" w-full text-xl text-center text-orange-400 tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
+        Lifting Made Easy
+      </h2>
       <p className="font-medium font-Mont text-2xl px-4 text-center">
         Supercharge your workspace with the combined power of Indian and German
         Technology

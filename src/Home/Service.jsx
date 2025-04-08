@@ -156,9 +156,12 @@ const Service = () => {
       </div>
  
        <div className="max-w-7xl w-full mx-auto text-center py-10 ">
-        <h1 className="font-bold text-4xl mb-4 sm:mb-8">
+        {/* <h1 className="font-bold text-4xl mb-4 sm:mb-8">
           Recognized by the clients
-        </h1>
+        </h1> */}
+         <h2 className="font-bold text-4xl mb-4 sm:mb-8">
+          Recognized by the clients
+        </h2>
         <div className="mx-auto w-full h-56">
           <Carousel pauseOnHover>
             {cara.map((item, index) => (

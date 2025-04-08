@@ -19,7 +19,8 @@ import {
 const FooterSection = ({ title, items }) => {
   return (
     <div>
-      <h1 className="font-medium text-lg text-color1 mb-2">{title}</h1>
+      {/* <h1 className="font-medium text-lg text-color1 mb-2">{title}</h1> */}
+      <h2 className="font-medium text-lg text-color1 mb-2">{title}</h2>
       <ul className="space-y-4 text-sm text-color1/70 flex flex-col">
         {items.map((item, index) => (
           <Link className="hover:text-color2" key={index} to={item.link}>
@@ -162,7 +163,7 @@ const Footer = () => {
           <FooterSection title={"Company"} items={company} />
           <FooterSection title={"Resources"} items={information} />
           <div>
-            <h1 className="font-medium mb-2">Social Media</h1>
+            <h2 className="font-medium mb-2">Social Media</h2>
             <ul className="flex text-2xl text-color1 space-x-4">
               {social.map((item, index) => (
                 <Link
@@ -183,7 +184,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-xs my-10 md:my-16 flex flex-col space-y-2 md:space-y-0 md:flex-row  space-x-6 text-gray-200 items-center justify-center">
-        <h1>@ 2025 THUNDER AUTO LLP. All Rights Reserved.</h1>
+        <h2>@ 2025 THUNDER AUTO LLP. All Rights Reserved.</h2>
         {/* <p>Designed & Maintained by RBG.AI.</p> */}
       </div>
     </div>

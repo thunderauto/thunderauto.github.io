@@ -17,9 +17,12 @@ const What = () => {
   return (
     <div className="w-full py-20 px-5 bg-gradient-to-r from-color2 via-orange-400 to-orange-400 text-color1">
       <div className="max-w-7xl mx-auto w-full md:px-10">
-        <h1 className="font-Poppins text-2xl font-semibold">
+        {/* <h1 className="font-Poppins text-2xl font-semibold">
           What Thunder Auto Do For You ?
-        </h1>
+        </h1> */}
+        <h2 className="font-Poppins text-2xl font-semibold">
+          What Thunder Auto Do For You ?
+        </h2>
         <div className="space-x-5">
           {/* <Link to="/"> */}
           <button
