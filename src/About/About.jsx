@@ -66,18 +66,21 @@ const teamMembers = [
   {
     name: "Mr. V. Sundaram",
     src: "./1.jpg",
+    alt:"Sundram",
     position: "CEO",
     linkedin: "https://www.linkedin.com/in/sundaram-venkatapathy-345b3287/",
   },
   {
     name: "Mrs. Sathya Sundaram",
     src: "3.jpeg",
+    alt:"Sathya Sundram",
     position: "CFO",
     linkedin: "https://www.linkedin.com/in/sathya-sundaram-429782138/",
   },
   {
     name: "Ms. Swathikha Sundaram",
     src: "2.jpeg",
+    alt:"Swathika Sundram",
     position: "Operations Head",
     linkedin: "https://www.linkedin.com/in/swathikha-sundaram-a9359875/",
   },
@@ -88,7 +91,7 @@ const Linkedln = () => {
       {teamMembers.map((item, index) => (
         <Link key={index} to={item.linkedin}>
           <div className="group grayscale duration-300 hover:grayscale-0 max-w-xs mx-auto flex flex-col h-full shadow-sm rounded-lg p-5 sm:p-10">
-            <img  src={item.src} className="rounded-xl" />
+            <img  src={item.src} alt={item.alt} className="rounded-xl" />
             <div className=" mt-5 flex items-center justify-end flex-col flex-1 flex-grow">
               <h1 className="group-hover:text-orange-400 font-medium text-gray-500 ">{item.name}</h1>
               <p className="group-hover:text-orange-400  text-gray-400">{item.position}</p>

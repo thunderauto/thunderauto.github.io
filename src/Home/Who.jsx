@@ -36,6 +36,7 @@ const Who = () => {
     {
       link:"/thunder-profimaster-mobile-car-lift",
       img: "./Photos/profimaster.png",
+      alt: "Thunder Profimaster 3000 mobile car lift",
       title: "Thunder Profimaster 3000",
       description:
         "Thunder Profimaster 3000 Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
@@ -43,6 +44,7 @@ const Who = () => {
     {
       link:"/thunder-transport-dolly",
       img: "./Photos/transport-dolly.png",
+      alt: "Thunder Transport Dolly vehicle mover",
       title: "Transport Dolly",
       description:
         "Transport Dolly is a safe tool for easy transfer of immobile vehicles within the shop floor efficiently. Using Transport Dolly vehicles can be moved in 360 degrees.",
@@ -50,6 +52,7 @@ const Who = () => {
     {
       link:"/thunder-strut-spring-compressor",
       img: "./Photos/spring.png",
+      alt: "Thunder Strut Spring Compressor for vehicles",
       title: "Strut Spring Compressor",
       description:
         "The THUNDER Strut Spring Compressor is used to safely compress the coil spring on most cars and SUV.",
@@ -57,6 +60,7 @@ const Who = () => {
     {
       link:"/thunder-aluminium-ingots",
       img: "./Photos/img4.png",
+      alt: "High-quality Thunder Aluminium Ingots",
       title: "Aluminium Ingots",
       description:
         " Through our advanced processes, we meticulously sort, clean, and melt these diverse aluminium scraps, transforming them into high-quality ingots.",

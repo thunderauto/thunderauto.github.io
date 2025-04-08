@@ -186,7 +186,7 @@ const Build = () => {
           {contentSections[2].description.map((item, index) => (
             <div className="flex flex-col" key={index}>
               <div className="flex items-center justify-start text-orange-400">
-                <img src={item.comp} />
+                <img src={item.comp} alt={item.title} />
               </div>
               <h1 className="text-xl font-semibold">{item.title}</h1>
             </div>

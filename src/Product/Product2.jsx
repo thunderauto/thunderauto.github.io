@@ -8,7 +8,7 @@ import SEOComponent from '../(Components)/SEOComponent';
 const VideoPlayer = () => {
   return (
     <div className="max-w-sm h-full flex justify-center items-center ">
-      <img src="./Photos/img4.png" className="rounded-lg"></img>
+      <img src="./Photos/img4.png" alt="" className="rounded-lg"></img>
     </div>
   );
 };

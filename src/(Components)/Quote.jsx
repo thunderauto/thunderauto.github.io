@@ -104,7 +104,7 @@ const Quote = () => {
             </div>
             <div className="max-w-sm relative ">
               <div className="absolute top-0 left-0 w-full h-full bg-[rgb(255,255,255,.5)]"></div>
-              <img src="./images/img4.jpg" className="rounded-full bg-transparent" />
+              <img src="./images/img4.jpg" alt="" className="rounded-full bg-transparent" />
             </div>
           </div>
         </div>
