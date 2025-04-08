@@ -79,7 +79,7 @@ const Footer = () => {
     },
     {
       title: "Blogs",
-      link: "#",
+      link: "/blogs",
     },
   ];
   const information = [
