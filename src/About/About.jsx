@@ -66,21 +66,30 @@ const teamMembers = [
   {
     name: "Mr. V. Sundaram",
     src: "./1.jpg",
+<<<<<<< HEAD
     alt:"Sundram",
+=======
+>>>>>>> 6b0fd18 (latest version)
     position: "CEO",
     linkedin: "https://www.linkedin.com/in/sundaram-venkatapathy-345b3287/",
   },
   {
     name: "Mrs. Sathya Sundaram",
     src: "3.jpeg",
+<<<<<<< HEAD
     alt:"Sathya Sundram",
+=======
+>>>>>>> 6b0fd18 (latest version)
     position: "CFO",
     linkedin: "https://www.linkedin.com/in/sathya-sundaram-429782138/",
   },
   {
     name: "Ms. Swathikha Sundaram",
     src: "2.jpeg",
+<<<<<<< HEAD
     alt:"Swathika Sundram",
+=======
+>>>>>>> 6b0fd18 (latest version)
     position: "Operations Head",
     linkedin: "https://www.linkedin.com/in/swathikha-sundaram-a9359875/",
   },
@@ -91,10 +100,17 @@ const Linkedln = () => {
       {teamMembers.map((item, index) => (
         <Link key={index} to={item.linkedin}>
           <div className="group grayscale duration-300 hover:grayscale-0 max-w-xs mx-auto flex flex-col h-full shadow-sm rounded-lg p-5 sm:p-10">
+<<<<<<< HEAD
             <img  src={item.src} alt={item.alt} className="rounded-xl" />
             <div className=" mt-5 flex items-center justify-end flex-col flex-1 flex-grow">
               <h1 className="group-hover:text-orange-400 font-medium text-gray-500 ">{item.name}</h1>
               <p className="group-hover:text-orange-400  text-gray-400">{item.position}</p>
+=======
+            <img  src={item.src} className="rounded-xl" />
+            <div className=" mt-5 flex items-center justify-end flex-col flex-1 flex-grow">
+              <h1 className="group-hover:text-[#2d5f98] font-medium text-gray-500 ">{item.name}</h1>
+              <p className="group-hover:text-[#2d5f98]  text-gray-400">{item.position}</p>
+>>>>>>> 6b0fd18 (latest version)
             </div>
           </div>
         </Link>
@@ -131,7 +147,11 @@ const About = () => {
               key={index}
               className="flex  items-center justify-center border-2 shadow-lg border-gray-200 rounded-lg p-5 sm:p-10 flex-col"
             >
+<<<<<<< HEAD
               <h1 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
+=======
+              <h1 className="pt-8 text-center mb-4 sm:mb-4 text-[#2d5f98]  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
+>>>>>>> 6b0fd18 (latest version)
                 {item.title}
               </h1>
               <p>{item.content}</p>
@@ -145,7 +165,11 @@ const About = () => {
 
         <div  className=" max-w-5xl mx-auto  my-6 xs:my-2 text-center p-7 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200 ">
           <h1 className="text-xl flex items-start capitalize sm:text-2xl mt-2 text-color4/90 font-bold font-Mont">
+<<<<<<< HEAD
             <FaQuoteLeft className="text-4xl mr-2 w-1/4 text-orange-400" />
+=======
+            <FaQuoteLeft className="text-4xl mr-2 w-1/4 text-[#2d5f98]" />
+>>>>>>> 6b0fd18 (latest version)
             At Thunder Auto, our directors form a family-driven leadership team,
             each contributing distinct expertise to our shared vision. With
             diverse backgrounds spanning finance, operations, marketing, and

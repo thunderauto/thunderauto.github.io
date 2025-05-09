@@ -94,7 +94,11 @@ const VideoPlayer = ({ videoList }) => {
           className={`w-full  p-4 hover:transform hover:scale-105`}
         >
           <iframe
+<<<<<<< HEAD
             className="border-orange-400 border-4 rounded-lg transition-transform duration-300"
+=======
+            className="border-[#d12e28] border-4 rounded-lg transition-transform duration-300"
+>>>>>>> 6b0fd18 (latest version)
             width="100%"
             height="240"
             src={video}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // /* eslint-disable react/no-unescaped-entities */
 // import { HoverEffectCard } from "@/(Components)/Hover";
 // import { HoverEffect } from "@/(Components)/HoverEffect";
@@ -100,6 +101,8 @@
 
 
 
+=======
+>>>>>>> 6b0fd18 (latest version)
 /* eslint-disable react/no-unescaped-entities */
 import { HoverEffectCard } from "@/(Components)/Hover";
 import { HoverEffect } from "@/(Components)/HoverEffect";
@@ -142,6 +145,7 @@ const Service = () => {
   ];
 
   return (
+<<<<<<< HEAD
 <>
 <SEOComponent
     title="Car Lifting Solutions | Thunder Auto | Efficient and Safe!"
@@ -182,6 +186,49 @@ const Service = () => {
       </div>
     </div>
     </>
+=======
+    <section>
+      <SEOComponent
+        title="Car Lifting Solutions | Thunder Auto | Efficient and Safe!"
+        description="Thunder Auto Offers the Best Mobile Car Lift Designed for Automotive Businesses. Improve Your Workshop Efficiency With Our Best Lifting Solutions" 
+      />
+      <div>
+        <blockquote className="flex items-start max-w-5xl mx-auto my-6 xs:my-2 text-center p-7 sm:p-12 bg-gray-200 rounded-xl shadow-xl border border-gray-200">
+          <FaQuoteLeft className="text-9xl text-[#2d5f98]" aria-hidden="true" />
+          <p className="text-xl capitalize sm:text-4xl mt-2 text-color4/90 font-bold font-Mont">
+            Best Portable Car Lifting Solutions in India - Efficient and safe
+          </p>
+        </blockquote>
+ 
+        <section className="max-w-7xl w-full mx-auto text-center py-10">
+          <h2 className="font-bold text-4xl mb-4 sm:mb-8">
+            Recognized by the clients
+          </h2>
+          <div className="mx-auto w-full h-56">
+            <Carousel pauseOnHover>
+              {cara.map((item, index) => (
+                <div className="grid md:grid-cols-3 gap-5" key={index}>
+                  {item.map((data, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center justify-center relative group"
+                    >
+                      <img 
+                        src={data} 
+                        style={{ filter: 'grayscale(100%)' }}
+                        alt={`Client logo ${index + 1}`}
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </Carousel>
+          </div>
+        </section>
+      </div>
+    </section>
+>>>>>>> 6b0fd18 (latest version)
   );
 };
 

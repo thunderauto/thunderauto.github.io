@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { useState } from "react";
 // import { Link, NavLink } from "react-router-dom";
 
@@ -86,6 +87,8 @@
 // };
 // export default Navbar;
 
+=======
+>>>>>>> 6b0fd18 (latest version)
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
@@ -117,7 +120,11 @@ const Navbar = () => {
       <div className="relative rounded-xl flex justify-between items-center w-full max-w-7xl mx-auto py-5 px-5 font-Mont">
         <Link
           to="/"
+<<<<<<< HEAD
           className="text-orange-400 cursor-pointer tracking-tighter  hover:text-color4 text-2xl sm:text-5xl  font-semibold"
+=======
+          className="text-[#2d5f98] cursor-pointer tracking-tighter  hover:text-[#d12e28] text-2xl sm:text-5xl  font-semibold"
+>>>>>>> 6b0fd18 (latest version)
         >
           Thunder
         </Link>
@@ -146,9 +153,15 @@ const Navbar = () => {
           {links.map((link, index) => (
             <NavLink
               className={({ isActive }) =>
+<<<<<<< HEAD
                 isActive
                   ? "scale-105 transition-all duration-500 text-orange-400"
                   : "" + "hover:text-orange-400"
+=======
+                isActive 
+                  ? "text-[#2d5f98] font-semibold border-b-2 border-[#2d5f98] transition-all duration-300" 
+                  : "hover:text-[#2d5f98] transition-all duration-300"
+>>>>>>> 6b0fd18 (latest version)
               }
               key={index}
               to={link.to}
@@ -165,8 +178,13 @@ const Navbar = () => {
               <NavLink
                 className={({ isActive }) =>
                   isActive
+<<<<<<< HEAD
                     ? "scale-125 transition-all duration-500 text-color2"
                     : "" + "hover:text-orange-400"
+=======
+                    ? "text-[#2d5f98] font-semibold border-b-2 border-[#2d5f98] transition-all duration-300"
+                    : "hover:text-[#2d5f98] transition-all duration-300"
+>>>>>>> 6b0fd18 (latest version)
                 }
                 key={index}
                 to={link.to}
@@ -180,7 +198,11 @@ const Navbar = () => {
         {/* "Get Demo" button */}
         <NavLink
           to="/quote"
+<<<<<<< HEAD
           className="hidden md:block bg-color3 hover:bg-orange-400 text-white font-medium py-2 px-4 rounded-lg transition duration-300 hover:bg-color2-dark"
+=======
+          className="hidden md:block bg-color3 hover:bg-[#2d5f98] text-white font-medium py-2 px-4 rounded-lg transition duration-300 hover:bg-color2-dark"
+>>>>>>> 6b0fd18 (latest version)
         >
           Get a Quote
         </NavLink>

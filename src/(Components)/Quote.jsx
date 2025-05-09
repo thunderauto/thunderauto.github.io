@@ -17,13 +17,22 @@ const Menu = ({ title, desc, i }) => {
   return (
     <div
       className={cn(
+<<<<<<< HEAD
         `flex hover:border-orange-400 hover:border-2 items-center gap-2 justify-between bg-zinc-50 max-w-md mb-4 rounded-lg p-4`,
         isChecked ? "border-2 border-orange-400" : ""
+=======
+        `flex hover:border-[#2d5f98] hover:border-2 items-center gap-2 justify-between bg-zinc-50 max-w-md mb-4 rounded-lg p-4`,
+        isChecked ? "border-2 border-[#2d5f98]" : ""
+>>>>>>> 6b0fd18 (latest version)
       )}
       onClick={handleCardClick}
     >
       <div className="flex gap-5">
+<<<<<<< HEAD
         <TbAerialLift className="text-color1 text-4xl bg-gradient-to-r rounded-full from-color2 to-orange-400" />
+=======
+        <TbAerialLift className="text-color1 text-4xl bg-gradient-to-r rounded-full from-[#2d5f98] to-[#d12e28]" />
+>>>>>>> 6b0fd18 (latest version)
         <div>
           <div className="flex items-center gap-2">
             <h1 className="font-semibold text-xl">{title}</h1>
@@ -81,7 +90,11 @@ const Quote = () => {
     <>
      <SEOComponent
     title="Get a Quote"
+<<<<<<< HEAD
     description="Get a Quote for Thunder Auto’s High-Quality Portable Car Lift.This Will Speed Up Your Work and Boost Productivity With Our High-Performance Lifting Equipment" 
+=======
+    description="Get a Quote for Thunder Auto's High-Quality Portable Car Lift.This Will Speed Up Your Work and Boost Productivity With Our High-Performance Lifting Equipment" 
+>>>>>>> 6b0fd18 (latest version)
 />
     <div className="w-full font-Mont">
       <div
@@ -104,7 +117,11 @@ const Quote = () => {
             </div>
             <div className="max-w-sm relative ">
               <div className="absolute top-0 left-0 w-full h-full bg-[rgb(255,255,255,.5)]"></div>
+<<<<<<< HEAD
               <img src="./images/img4.jpg" alt="" className="rounded-full bg-transparent" />
+=======
+              <img src="./images/img4.jpg" className="rounded-full bg-transparent" />
+>>>>>>> 6b0fd18 (latest version)
             </div>
           </div>
         </div>
@@ -136,7 +153,11 @@ const Quote = () => {
                     className="flex items-center justify-center relative group"
                   >
                     {/* <div className=" group-hover:block absolute top-0 left-0 w-full h-full bg-[rgb(0,0,0,.5)]"></div> */}
+<<<<<<< HEAD
                     <img src={data}  alt={`Carousel icon ${index + 1}`} style={{ filter: 'grayscale(100%)' }}  />
+=======
+                    <img src={data} style={{ filter: 'grayscale(100%)' }}  />
+>>>>>>> 6b0fd18 (latest version)
                   </div>
                 ))}
               </div>

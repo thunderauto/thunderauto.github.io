@@ -22,18 +22,30 @@ export const HoverEffectCard = ({ items }) => {
                px-12 text-center text-color1"
                 >
                   <div className="flex min-h-full flex-col items-center justify-center">
+<<<<<<< HEAD
                     <h1 className="text-2xl font-bold">{item.title}</h1>
+=======
+                    <h2 className="text-2xl font-bold">{item.title}</h2>
+>>>>>>> 6b0fd18 (latest version)
                   </div>
                 </div>
               ) : (
                 <div className="absolute inset-0 h-full z-50 w-full rounded-xl bg-white px-12 text-center text-black">
                   <div className="flex min-h-full flex-col items-center justify-center">
+<<<<<<< HEAD
                     <h1 className="text-2xl font-bold">{item.title}</h1>
+=======
+                    <h2 className="text-2xl font-bold">{item.title}</h2>
+>>>>>>> 6b0fd18 (latest version)
                   </div>
                 </div>
               )}
 
+<<<<<<< HEAD
               <div className="absolute inset-0 h-full z-50 w-full rounded-xl bg-gradient-to-r from-color2 via-orange-400 to-orange-400 px-12 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
+=======
+              <div className="absolute inset-0 h-full z-50 w-full rounded-xl bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] px-12 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
+>>>>>>> 6b0fd18 (latest version)
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <p className="font-semibold">{item.description}</p>
                 </div>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from "react";
 // import ReactDOM from "react-dom/client";
 // import App from "./App.jsx";
@@ -87,6 +88,8 @@
 // );
 
 
+=======
+>>>>>>> 6b0fd18 (latest version)
 
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -179,4 +182,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 6b0fd18 (latest version)

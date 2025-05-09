@@ -19,7 +19,10 @@ import {
 const FooterSection = ({ title, items }) => {
   return (
     <div>
+<<<<<<< HEAD
       {/* <h1 className="font-medium text-lg text-color1 mb-2">{title}</h1> */}
+=======
+>>>>>>> 6b0fd18 (latest version)
       <h2 className="font-medium text-lg text-color1 mb-2">{title}</h2>
       <ul className="space-y-4 text-sm text-color1/70 flex flex-col">
         {items.map((item, index) => (
@@ -117,9 +120,15 @@ const Footer = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <div className="bg-color3 w-full font-Mont">
       <div className="max-w-7xl w-full mx-auto text-color px-10 md:px-5 py-10 md:pt-20">
         <h1 className="text-4xl font-bold text-orange-400">Thunder</h1>
+=======
+    <div className="bg-black w-full font-Mont">
+      <div className="max-w-7xl w-full mx-auto text-color px-10 md:px-5 py-10 md:pt-20">
+        <h2 className="text-4xl font-bold text-[#2d5f98]">Thunder</h2>
+>>>>>>> 6b0fd18 (latest version)
         <div className="grid grid-cols-1 text-color1 sm:grid-cols-2 mt-5">
           <div>
             <h2 className="flex items-center font-semibold text-xl mb-2">
@@ -143,7 +152,11 @@ const Footer = () => {
             <p className="mb-1">{details.officeHours.timing}</p>
           </div>
           <div>
+<<<<<<< HEAD
             <h2 className="text-color4 font-semibold text-xl mb-4">Contact</h2>
+=======
+            <h2 className="text-color1 font-semibold text-xl mb-4">Contact</h2>
+>>>>>>> 6b0fd18 (latest version)
             <div className="">
               {details.officeAddress.phoneNumbers.map((item, index) => (
                 <div className="flex items-center mb-1" key={index}>
@@ -163,7 +176,11 @@ const Footer = () => {
           <FooterSection title={"Company"} items={company} />
           <FooterSection title={"Resources"} items={information} />
           <div>
+<<<<<<< HEAD
             <h2 className="font-medium mb-2">Social Media</h2>
+=======
+            <h2 className="font-medium mb-2 text-color1">Social Media</h2>
+>>>>>>> 6b0fd18 (latest version)
             <ul className="flex text-2xl text-color1 space-x-4">
               {social.map((item, index) => (
                 <Link
@@ -176,7 +193,11 @@ const Footer = () => {
               ))}
             </ul>
             <Link to={"#"}>
+<<<<<<< HEAD
               <button className="px-4 py-2  text-color4 font-medium  bg-gradient-to-r from-color2 via-orange-400 to-orange-400  hover:bg-colo rounded mt-4">
+=======
+              <button className="px-4 py-2 text-color1 font-medium bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] hover:bg-[#2d5f98] rounded mt-4">
+>>>>>>> 6b0fd18 (latest version)
                 Reach Us
               </button>
             </Link>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { useState, useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 // import Navbar from "./Navbar";
@@ -202,6 +203,8 @@
 
 
 
+=======
+>>>>>>> 6b0fd18 (latest version)
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -261,7 +264,11 @@ export default function ErrorPage() {
               {/* Left side with enhanced animations */}
               <div className="w-full lg:w-1/2">
               <img 
+<<<<<<< HEAD
                     src="/Gif/Error.gif" 
+=======
+                    src="/Gif/Error1.gif" 
+>>>>>>> 6b0fd18 (latest version)
                     alt="404 Error" 
                     className="w-full max-w-xs h-auto object-contain mx-auto"
                   />
@@ -269,12 +276,21 @@ export default function ErrorPage() {
               
               {/* Right side content */}
               <div className="w-full lg:w-1/2 text-center lg:text-left">
+<<<<<<< HEAD
                 <div className={`border-l-4 border-orange-500 pl-4 mb-6 ${bounce ? 'animate-pulse' : ''}`}>
                   <h2 className="text-3xl font-bold text-gray-800">
                     Page Not Found
                   </h2>
                   <p className={`text-orange-500 text-xl transition-all duration-500 ${
                     animationState === 2 ? 'text-orange-600' : 'text-orange-500'
+=======
+                <div className={`border-l-4 border-[#2d5f98] pl-4 mb-6 ${bounce ? 'animate-pulse' : ''}`}>
+                  <h2 className="text-3xl font-bold text-gray-800">
+                    Page Not Found
+                  </h2>
+                  <p className={`text-[#2d5f98] text-xl transition-all duration-500 ${
+                    animationState === 2 ? 'text-[#234872]' : 'text-[#2d5f98]'
+>>>>>>> 6b0fd18 (latest version)
                   }`}>Error 404</p>
                 </div>
                 
@@ -304,8 +320,13 @@ export default function ErrorPage() {
                   
                   <button 
                     onClick={() => navigate('/contact')}
+<<<<<<< HEAD
                     className={`bg-white border-2 border-orange-500 text-orange-500 font-bold py-3 px-8 rounded transition-all duration-300 ${
                       isHovering ? 'bg-orange-50' : ''
+=======
+                    className={`bg-white border-2 border-[#2d5f98] text-[#2d5f98] font-bold py-3 px-8 rounded transition-all duration-300 ${
+                      isHovering ? 'bg-[#e3eaf3]' : ''
+>>>>>>> 6b0fd18 (latest version)
                     } ${shake ? 'animate-pulse' : ''}`}
                   >
                     Contact Support
@@ -318,8 +339,13 @@ export default function ErrorPage() {
           {/* Features section with hover animations */}
           <div className="mt-12 mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+<<<<<<< HEAD
               <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-orange-200">
                 <svg className="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+=======
+              <div className="w-12 h-12 bg-[#e3eaf3] rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-[#c7d6e9]">
+                <svg className="w-6 h-6 text-[#2d5f98]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+>>>>>>> 6b0fd18 (latest version)
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd"></path>
                 </svg>
               </div>
@@ -328,8 +354,13 @@ export default function ErrorPage() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+<<<<<<< HEAD
               <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-orange-200">
                 <svg className="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+=======
+              <div className="w-12 h-12 bg-[#e3eaf3] rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-[#c7d6e9]">
+                <svg className="w-6 h-6 text-[#2d5f98]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+>>>>>>> 6b0fd18 (latest version)
                   <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
                 </svg>
               </div>
@@ -338,8 +369,13 @@ export default function ErrorPage() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+<<<<<<< HEAD
               <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-orange-200">
                 <svg className="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+=======
+              <div className="w-12 h-12 bg-[#e3eaf3] rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-[#c7d6e9]">
+                <svg className="w-6 h-6 text-[#2d5f98]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+>>>>>>> 6b0fd18 (latest version)
                   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd"></path>
                 </svg>
               </div>
@@ -348,8 +384,13 @@ export default function ErrorPage() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+<<<<<<< HEAD
               <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-orange-200">
                 <svg className="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+=======
+              <div className="w-12 h-12 bg-[#e3eaf3] rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-[#c7d6e9]">
+                <svg className="w-6 h-6 text-[#2d5f98]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+>>>>>>> 6b0fd18 (latest version)
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                 </svg>
               </div>

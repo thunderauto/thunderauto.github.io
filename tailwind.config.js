@@ -69,7 +69,11 @@ module.exports = {
       },
       colors: {
         color3: "#000000",
+<<<<<<< HEAD
         color2: "#D5AF67",
+=======
+        color2: "#d12e28",
+>>>>>>> 6b0fd18 (latest version)
         color1: "#FFFFFF",
         color4: "#050200",
         border: "hsl(var(--border))",
