@@ -9,7 +9,7 @@ const Who = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-10 lg:py-20">
-      <h1 className="text-2xl tracking-tighter text-orange-400 sm:text-3xl font-Mont mb-6 sm:mb-8 font-semibold">
+      <h1 className="text-2xl tracking-tighter text-[#2d5f98] sm:text-3xl font-Mont mb-6 sm:mb-8 font-semibold">
         Who We Are?
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

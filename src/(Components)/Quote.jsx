@@ -45,7 +45,6 @@ const Menu = ({ title, desc, i }) => {
     </div>
   );
 };
-
 const Quote = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -83,7 +82,7 @@ const Quote = () => {
      <SEOComponent
     title="Get a Quote"
     description="Get a Quote for Thunder Auto's High-Quality Portable Car Lift.This Will Speed Up Your Work and Boost Productivity With Our High-Performance Lifting Equipment" 
-    />
+/>
     <div className="w-full font-Mont">
       <div
         style={{
@@ -96,16 +95,16 @@ const Quote = () => {
         className="w-full"
       >
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-around py-10">
+          <div className="flex flex-col md:flex-row  items-center justify-around py-10 ">
             <div className="max-w-sm text-center md:text-left">
               <h1 className="font-bold text-4xl mb-2">Get a Quote</h1>
               <p className="font-semibold text-3xl">
                 Test our products and experience the scale, grade and class.
               </p>
             </div>
-            <div className="max-w-sm relative">
+            <div className="max-w-sm relative ">
               <div className="absolute top-0 left-0 w-full h-full bg-[rgb(255,255,255,.5)]"></div>
-              <img src="./images/img4.jpg" alt="" className="rounded-full bg-transparent" />
+              <img src="./images/img4.jpg" className="rounded-full bg-transparent" />
             </div>
           </div>
         </div>
@@ -136,7 +135,8 @@ const Quote = () => {
                     key={index}
                     className="flex items-center justify-center relative group"
                   >
-                    <img src={data} alt={`Carousel icon ${index + 1}`} style={{ filter: 'grayscale(100%)' }} />
+                    {/* <div className=" group-hover:block absolute top-0 left-0 w-full h-full bg-[rgb(0,0,0,.5)]"></div> */}
+                    <img src={data} style={{ filter: 'grayscale(100%)' }}  />
                   </div>
                 ))}
               </div>

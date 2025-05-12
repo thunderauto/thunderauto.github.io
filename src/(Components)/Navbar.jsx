@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="relative rounded-xl flex justify-between items-center w-full max-w-7xl mx-auto py-5 px-5 font-Mont">
         <Link
           to="/"
-          className="text-[#2d5f98] cursor-pointer tracking-tighter hover:text-[#d12e28] text-2xl sm:text-5xl font-semibold"
+          className="text-[#2d5f98] cursor-pointer tracking-tighter  hover:text-[#d12e28] text-2xl sm:text-5xl  font-semibold"
         >
           Thunder
         </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex text-color3 font-medium space-x-8 my-4 cursor-pointer">
+        <ul className="hidden  md:flex text-color3  font-medium space-x-8 my-4 cursor-pointer">
           {links.map((link, index) => (
             <NavLink
               className={({ isActive }) =>
@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {toggle && (
-          <ul className="md:hidden bg-color1 w-full absolute top-14 left-0 items-start animate-flip-down duration-200 flex flex-col text-color3 space-y-6 sm:space-y-8 px-10 py-5 sm:px-20 cursor-pointer">
+          <ul className="md:hidden bg-color1 w-full absolute top-14 left-0 items-start animate-flip-down duration-200 flex flex-col text-color3 space-y-6  sm:space-y-8 px-10 py-5 sm:px-20 cursor-pointer">
             {links.map((link, index) => (
               <NavLink
                 className={({ isActive }) =>
@@ -92,9 +92,9 @@ const Navbar = () => {
         {/* "Get Demo" button */}
         <NavLink
           to="/quote"
-          className="hidden md:block bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-white px-6 py-2 rounded-md hover:bg-[#2d5f98] transition-all duration-300"
+          className="hidden md:block bg-color3 hover:bg-[#2d5f98] text-white font-medium py-2 px-4 rounded-lg transition duration-300 hover:bg-color2-dark"
         >
-          Get Demo
+          Get a Quote
         </NavLink>
       </div>
     </div>

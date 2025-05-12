@@ -11,9 +11,6 @@ const Quote = ({ disable = true }) => {
   }
   return (
     <div className="max-w-xl  w-full bg-[#eeeeee] p-10 rounded-xl">
-      <h1 className="text-color3 font-Mont font-bold mb-6 sm:mb-8 text-4xl">
-        Request Quote
-      </h1>
       <h2 className="text-color3 font-Mont font-bold mb-6 sm:mb-8 text-4xl">
         Request Quote
       </h2>
@@ -23,7 +20,7 @@ const Quote = ({ disable = true }) => {
       >
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 text-orange-400"
+          className="placeholder:text-gray-400 border-0 text-[#2d5f98]"
           placeholder={"First Name"}
           name="firstName"
         />
@@ -34,7 +31,7 @@ const Quote = ({ disable = true }) => {
         />
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 text-orange-400"
+          className="placeholder:text-gray-400 border-0 text-[#2d5f98]"
           placeholder={"Last Name"}
           name="lastName"
         />
@@ -45,7 +42,7 @@ const Quote = ({ disable = true }) => {
         />
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 col-span-2 text-orange-400"
+          className="placeholder:text-gray-400 border-0 col-span-2 text-[#2d5f98]"
           placeholder={"Company Name"}
           name="companyName"
         />
@@ -56,7 +53,7 @@ const Quote = ({ disable = true }) => {
         />
         <Input
           type={"email"}
-          className="placeholder:text-gray-400 border-0 col-span-2 text-orange-400"
+          className="placeholder:text-gray-400 border-0 col-span-2 text-[#2d5f98]"
           placeholder={"Email Address"}
           name="email"
         />
@@ -67,7 +64,7 @@ const Quote = ({ disable = true }) => {
         />
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 col-span-2 text-orange-400"
+          className="placeholder:text-gray-400 border-0 col-span-2 text-[#2d5f98]"
           placeholder={"Phone Number"}
           name="phoneNumber"
         />
@@ -78,14 +75,14 @@ const Quote = ({ disable = true }) => {
         />
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 col-span-2 text-orange-400"
+          className="placeholder:text-gray-400 border-0 col-span-2 text-[#2d5f98]"
           placeholder={"GSTIN"}
           name="gstin"
         />
         <ValidationError prefix="GSTIN" field="gstin" errors={state.errors} />
         <Input
           type={"text"}
-          className="placeholder:text-gray-400 border-0 col-span-2 text-orange-400"
+          className="placeholder:text-gray-400 border-0 col-span-2 text-[#2d5f98]"
           placeholder={"City / Town"}
           name="cityTown"
         />
@@ -95,7 +92,7 @@ const Quote = ({ disable = true }) => {
           errors={state.errors}
         />
         <textarea
-          className="col-span-2 p-5 rounded border-0 text-orange-400"
+          className="col-span-2 p-5 rounded border-0 text-[#2d5f98]"
           placeholder="Address"
           name="address"
         ></textarea>
@@ -107,7 +104,7 @@ const Quote = ({ disable = true }) => {
         <button
           type="submit"
           disabled={state.submitting}
-          className="px-4 py-2 bg-color4 text-color1 rounded-lg mt-10 hover:bg-orange-400"
+          className="px-4 py-2 bg-color4 text-color1 rounded-lg mt-10 hover:bg-[#2d5f98]"
         >
           Get a Quote
         </button>

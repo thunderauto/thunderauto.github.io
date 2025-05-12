@@ -15,7 +15,7 @@ import {
   FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";
-
+// import { Bread } from "./Bread";
 const FooterSection = ({ title, items }) => {
   return (
     <div>
@@ -30,7 +30,6 @@ const FooterSection = ({ title, items }) => {
     </div>
   );
 };
-
 const Footer = () => {
   const details = {
     officeAddress: {
@@ -87,6 +86,10 @@ const Footer = () => {
       title: "Product Archive",
       link: "/thunder-profimaster-mobile-car-lift",
     },
+    // {
+    //   title: "Privacy policy",
+    //   link: "",
+    // },
   ];
   const social = [
     {
@@ -101,6 +104,7 @@ const Footer = () => {
       com: <FaLinkedin />,
       link: "https://www.linkedin.com/company/thunder-auto-llp/",
     },
+
     {
       com: <FaYoutube />,
       link: "https://www.youtube.com/@thunderautollp4571",
@@ -172,11 +176,15 @@ const Footer = () => {
             </ul>
             <Link to={"#"}>
               <button className="px-4 py-2 text-color1 font-medium bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] hover:bg-[#2d5f98] rounded mt-4">
-                Contact Us
+                Reach Us
               </button>
             </Link>
           </div>
         </div>
+      </div>
+      <div className="text-xs my-10 md:my-16 flex flex-col space-y-2 md:space-y-0 md:flex-row  space-x-6 text-gray-200 items-center justify-center">
+        <h2>@ 2025 THUNDER AUTO LLP. All Rights Reserved.</h2>
+        {/* <p>Designed & Maintained by RBG.AI.</p> */}
       </div>
     </div>
   );

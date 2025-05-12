@@ -240,7 +240,7 @@ const Build = () => {
         }}
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
-          <FaQuoteLeft className="text-4xl md:text-9xl text-orange-400" />
+          <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
           <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             “Transport Dolly stands as a testament to innovation and excellence,
             offering a safe, efficient, and user-friendly solution for the
@@ -262,7 +262,7 @@ const Product = () => {
     <>
      <SEOComponent
     title="Thunder Transport Dolly | Effortlessly transfer your vehicle"
-    description="We Understand How Challenging It Can Be to Move Vehicles Around in Your Workshop. The Only Reason We Designed Thunder Auto’s Heavy-Duty Transport Dolly" 
+    description="We Understand How Challenging It Can Be to Move Vehicles Around in Your Workshop. The Only Reason We Designed Thunder Auto's Heavy-Duty Transport Dolly" 
 />
 
     <div>
@@ -290,7 +290,7 @@ const Product = () => {
         </div>
       </div> */}
       <Build />
-      <div className="md:px-20 py-10 bg-gradient-to-r from-color2 via-orange-400 to-orange-400">
+      <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
           <h1 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Ready to transform your customer experience?

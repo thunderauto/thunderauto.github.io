@@ -36,7 +36,6 @@ const Who = () => {
     {
       link:"/thunder-profimaster-mobile-car-lift",
       img: "./Photos/profimaster.png",
-      alt: "Thunder Profimaster 3000 mobile car lift",
       title: "Thunder Profimaster 3000",
       description:
         "Thunder Profimaster 3000 Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
@@ -44,7 +43,6 @@ const Who = () => {
     {
       link:"/thunder-transport-dolly",
       img: "./Photos/transport-dolly.png",
-      alt: "Thunder Transport Dolly vehicle mover",
       title: "Transport Dolly",
       description:
         "Transport Dolly is a safe tool for easy transfer of immobile vehicles within the shop floor efficiently. Using Transport Dolly vehicles can be moved in 360 degrees.",
@@ -52,7 +50,6 @@ const Who = () => {
     {
       link:"/thunder-strut-spring-compressor",
       img: "./Photos/spring.png",
-      alt: "Thunder Strut Spring Compressor for vehicles",
       title: "Strut Spring Compressor",
       description:
         "The THUNDER Strut Spring Compressor is used to safely compress the coil spring on most cars and SUV.",
@@ -60,7 +57,6 @@ const Who = () => {
     {
       link:"/thunder-aluminium-ingots",
       img: "./Photos/img4.png",
-      alt: "High-quality Thunder Aluminium Ingots",
       title: "Aluminium Ingots",
       description:
         " Through our advanced processes, we meticulously sort, clean, and melt these diverse aluminium scraps, transforming them into high-quality ingots.",
@@ -74,12 +70,9 @@ const Who = () => {
     description="Thunder Auto Offers the Best Mobile Car Lift Designed for Automotive Businesses. Improve Your Workshop Efficiency With Our Best Lifting Solutions" 
 />
       <div className="bg-gray-100 w-full px-4 py-6">
-        {/* <h1 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
+        <h1 className="pt-8 text-center mb-4 sm:mb-4 text-[#2d5f98]  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
           Explore Our Products
-        </h1> */}
-         <h2 className="pt-8 text-center mb-4 sm:mb-4 text-orange-400  font-Mont text-4xl sm:text-3xl px-4 font-bold tracking-tighter">
-          Explore Our Products
-        </h2>
+        </h1>
         <p className="font-medium font-Mont text-2xl px-4 text-center">
           Your premier destination for vehicle lifting solutions with a
           Pioneering partnership with German entity. Introducing India's first

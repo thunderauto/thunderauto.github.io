@@ -10,36 +10,35 @@ const What = () => {
   const handleClick = () => {
     window.scrollTo({
       top: document.body.scrollHeight,
-      behavior: "smooth", // Optionally, you can add smooth behavior for a smooth scroll effect
+      behavior: "smooth",
     });
   };
 
   return (
-    <div className="w-full py-20 px-5 bg-gradient-to-r from-color2 via-orange-400 to-orange-400 text-color1">
+    <section className="w-full py-20 px-5 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-color1">
       <div className="max-w-7xl mx-auto w-full md:px-10">
-        {/* <h1 className="font-Poppins text-2xl font-semibold">
-          What Thunder Auto Do For You ?
-        </h1> */}
         <h2 className="font-Poppins text-2xl font-semibold">
           What Thunder Auto Do For You ?
         </h2>
         <div className="space-x-5">
-          {/* <Link to="/"> */}
           <button
             onClick={handleClick}
-            className="px-4 py-2 text-color1 bg-color3 rounded mt-4"
+            className="px-4 py-2 text-color1 bg-color3 hover:bg-[#d12e28] transition-colors duration-300 rounded mt-4"
+            aria-label="Contact us"
           >
             Reach Us
           </button>
-          {/* </Link> */}
           <Link to={"/quote"}>
-            <button className="px-4 py-2 text-color1 bg-color3 rounded mt-4">
+            <button 
+              className="px-4 py-2 text-color1 bg-color3 hover:bg-[#d12e28] transition-colors duration-300 rounded mt-4"
+              aria-label="Get a quote"
+            >
               Get a Quote
             </button>
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -130,12 +129,12 @@ const Home = () => {
     ],
   };
   return (
-    <>
-    <SEOComponent
-    title="Car Lifting Solutions | Thunder Auto | Efficient and Safe!"
-    description="Thunder Auto Offers the Best Mobile Car Lift Designed for Automotive Businesses. Improve Your Workshop Efficiency With Our Best Lifting Solutions" 
-/>
-      <div className="w-full px-2 md:h-[70vh] relative overflow-hidden">
+    <main>
+      <SEOComponent
+        title="Car Lifting Solutions | Thunder Auto | Efficient and Safe!"
+        description="Thunder Auto Offers the Best Mobile Car Lift Designed for Automotive Businesses. Improve Your Workshop Efficiency With Our Best Lifting Solutions" 
+      />
+      <section className="w-full px-2 md:h-[70vh] relative overflow-hidden">
         <div className="gradient-overlay absolute top-0 left-0 w-full h-full md:h-[70vh] bg-[rgb(0,0,0,.5)] bg-cover z-10"></div>
         <video
           className="w-full"
@@ -143,16 +142,18 @@ const Home = () => {
           autoPlay
           loop
           muted
+          aria-label="Thunder Auto promotional video"
         ></video>
-        <div className="absolute  duration-300 top-0 left-0 w-full h-full flex items-center text-center justify-center font-bold text-2xl sm:text-5xl text-color1 z-10">
-          {carouselData[carouselIndex]}
+        <div className="absolute duration-300 top-0 left-0 w-full h-full flex items-center text-center justify-center font-bold text-2xl sm:text-5xl text-color1 z-10">
+          <h1 className="sr-only">Thunder Auto - Automotive Solutions</h1>
+          <p aria-live="polite">{carouselData[carouselIndex]}</p>
         </div>
-      </div>
+      </section>
       <Service />
       <Why />
       <Who />
       <What />
-    </>
+    </main>
   );
 };
 

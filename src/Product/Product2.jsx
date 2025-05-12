@@ -8,7 +8,7 @@ import SEOComponent from '../(Components)/SEOComponent';
 const VideoPlayer = () => {
   return (
     <div className="max-w-sm h-full flex justify-center items-center ">
-      <img src="./Photos/img4.png" alt="" className="rounded-lg"></img>
+      <img src="./Photos/img4.png" className="rounded-lg"></img>
     </div>
   );
 };
@@ -18,7 +18,7 @@ const Mobile = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col sm:flex-row justify-between ">
           <div className="flex flex-col w-full sm:w-1/2 py-10">
-            <h1 className="text-lg  text-orange-400 mb-4">
+            <h1 className="text-lg  text-[#2d5f98] mb-4">
               Thunder Aluminium Ingots
             </h1>
             <h2 className="text-4xl font-bold mb-8 text-center sm:text-left">
@@ -202,7 +202,7 @@ const Build = () => {
         }}
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
-          <FaQuoteLeft className="text-4xl md:text-9xl text-orange-400" />
+          <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
           <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             “ Join us in our mission to close the loop on aluminium recycling
             and promote a sustainable future. Thunder Auto LLP is committed to
@@ -238,7 +238,7 @@ const Product = () => {
       <Product5 /> */}
       <Product6 />
       <Build />
-      <div className="md:px-20 py-10 bg-gradient-to-r from-color2 via-orange-400 to-orange-400">
+      <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
           <h1 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Ready to transform your customer experience?
