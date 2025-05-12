@@ -25,7 +25,7 @@ const Contact = () => {
     <Container>
       <div className="grid grid-cols-1 sm:grid-cols-2 px-4 sm:px-6 w-full gap-10">
         <div className="animate-fade-left animate-duration-500 border-opacity-50 antialiased mt-10 sm:mt-20 lg:mt-0 flex items-center  flex-col text-color4 font-Mont  ">
-          <div className="bg-gradient-to-r from-color2  to-orange-400 text-color1 rounded pt-5 text-center w-full">
+          <div className="bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-color1 rounded pt-5 text-center w-full">
             <h1 className="text-color3 text-4xl sm:text-4xl font-bold font-Mont tracking-tighter mb-8">
               Contact Info
             </h1>
@@ -65,10 +65,10 @@ const Contact = () => {
           <h1 className="text-color3 col-span-2 text-center mb-6 sm:mb-8 text-4xl sm:text-4xl font-bold font-Mont tracking-tighter">
             Contact Us
           </h1>{" "}
-          <Input type={"text"} placeholder={"Name"} />
-          <Input type={"email"} placeholder={"Email"} />
-          <Input type={"tel"} placeholder={"Mobile"} />
-          <Input type={"text"} placeholder={"City"} />
+          <Input type={"text"} placeholder={"Name"} className="text-[#2d5f98]"/>
+          <Input type={"email"} placeholder={"Email"} className="text-[#2d5f98]"/>
+          <Input type={"tel"} placeholder={"Mobile"} className="text-[#2d5f98]"/>
+          <Input type={"text"} placeholder={"City"} className="text-[#2d5f98]"/>
           <textarea
             placeholder="Comment"
             className="col-span-2 border-color3/30 p-2 bg-transparent border rounded "
