@@ -45,17 +45,12 @@ const Why = () => {
   ];
 
   return (
-<<<<<<< HEAD
     <div className="text-center text-color3 bg-zinc-50 p-10 rounded-lg sm:px-20">
       {/* <h1 className=" w-full text-xl text-center text-orange-400 tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
         Lifting Made Easy
       </h1> */}
 
 <h2 className=" w-full text-xl text-center text-orange-400 tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
-=======
-    <section className="text-center text-color3 bg-zinc-50 p-10 rounded-lg sm:px-20" aria-labelledby="features-heading">
-      <h2 id="features-heading" className="w-full text-xl text-center text-[#2d5f98] tracking-tighter sm:text-3xl mb-6 sm:mb-8 font-semibold font-Mont">
->>>>>>> 6b0fd18 (latest version)
         Lifting Made Easy
       </h2>
       <p className="font-medium font-Mont text-2xl px-4 text-center">
@@ -63,11 +58,7 @@ const Why = () => {
         Technology
       </p>
       <HoverEffect items={features} />
-<<<<<<< HEAD
     </div>
-=======
-    </section>
->>>>>>> 6b0fd18 (latest version)
   );
 };
 

@@ -88,11 +88,7 @@ const VideoPlayer = () => {
     <div className="w-full h-full flex justify-center items-center ">
       <iframe
         className="
-<<<<<<< HEAD
        border-orange-400 border-4 rounded-lg"
-=======
-       border-[#d12e28] border-4 rounded-lg"
->>>>>>> 6b0fd18 (latest version)
         width="560"
         height="315"
         src="https://www.youtube.com/embed/L9g_W232YY4"
@@ -110,11 +106,7 @@ const Mobile = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col sm:flex-row justify-between ">
           <div className="flex flex-col w-full sm:w-1/2 py-10">
-<<<<<<< HEAD
             <h1 className="text-lg  text-orange-400 mb-4">
-=======
-            <h1 className="text-lg  text-[#2d5f98] mb-4">
->>>>>>> 6b0fd18 (latest version)
             Thunder Profimaster Mobile Car Lift
             </h1>
             <h2 className="text-4xl font-bold mb-8 text-center sm:text-left">
@@ -131,11 +123,7 @@ const Mobile = () => {
             </p>
             <a
               href="brochure1.pdf"
-<<<<<<< HEAD
               className="block px-4 py-2 hover:bg-orange-400 text-color1 bg-color3 rounded mt-4 text-center max-w-xs"
-=======
-              className="block px-4 py-2 hover:bg-[#d12e28] text-color1 bg-color3 rounded mt-4 text-center max-w-xs"
->>>>>>> 6b0fd18 (latest version)
               download
             >
               Download the brochure
@@ -171,11 +159,7 @@ const Mobile = () => {
                   key={index}
                   className="flex gap-2 items-center text-xl font-semibold mb-4 sm:mb-8"
                 >
-<<<<<<< HEAD
                   <FaCheckCircle className="text-orange-400  text-4xl" />
-=======
-                  <FaCheckCircle className="text-[#d12e28]  text-4xl" />
->>>>>>> 6b0fd18 (latest version)
                   {feature.title}
                   <Tooltip content={feature.i}>
                     <InfoIcon />
@@ -202,11 +186,7 @@ const Build = () => {
           {contentSections[2].description.map((item, index) => (
             <div className="flex flex-col" key={index}>
               <div className="flex items-center justify-start text-orange-400">
-<<<<<<< HEAD
                 <img src={item.comp} alt={item.title} />
-=======
-                <img src={item.comp} />
->>>>>>> 6b0fd18 (latest version)
               </div>
               <h1 className="text-xl font-semibold">{item.title}</h1>
             </div>
@@ -223,7 +203,6 @@ const Build = () => {
         }}
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
-<<<<<<< HEAD
           <FaQuoteLeft className="text-4xl md:text-9xl text-orange-400" />
           {/* <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             “Thunder ProfiMaster 3000 integrates seamlessly into our commitment
@@ -239,16 +218,6 @@ const Build = () => {
             solutions and innovative features. Invest in the future of
             automotive maintenance with Thunder ProfiMaster 3000.”
           </h2>
-=======
-          <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
-          <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
-            "Thunder ProfiMaster 3000 integrates seamlessly into our commitment
-            to enhancing customer service and satisfaction. Thunder ProfiMaster
-            3000 transforms the automotive repair landscape, offering tailored
-            solutions and innovative features. Invest in the future of
-            automotive maintenance with Thunder ProfiMaster 3000."
-          </h1>
->>>>>>> 6b0fd18 (latest version)
         </div>
       </div>
     </div>
@@ -269,11 +238,7 @@ const Product = () => {
   
       <Navbar />
       <Mobile />
-<<<<<<< HEAD
       <div className="md:px-20 py-10 bg-gradient-to-r from-color2 via-orange-400 to-orange-400">
-=======
-      <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
->>>>>>> 6b0fd18 (latest version)
         <div className="flex gap-5 flex-col md:flex-row items-center justify-center max-w-7xl w-full mx-auto">
           <h1 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Crafting the perfect Mobile Lift Solution : A Guide
@@ -281,11 +246,7 @@ const Product = () => {
 
           <a
             href="brochure1.pdf"
-<<<<<<< HEAD
             className="block  hover:bg-orange-400 px-4 py-2 text-color1 bg-color3 rounded mt-4 sm:mt-0 text-center"
-=======
-            className="block  hover:bg-[#2d5f98] px-4 py-2 text-color1 bg-color3 rounded mt-4 sm:mt-0 text-center"
->>>>>>> 6b0fd18 (latest version)
             download
           >
             Download the buyer's guide
@@ -293,11 +254,7 @@ const Product = () => {
         </div>
       </div>
       <Build />
-<<<<<<< HEAD
       <div className="md:px-20 py-10 bg-gradient-to-r from-color2 via-orange-400 to-orange-400">
-=======
-      <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
->>>>>>> 6b0fd18 (latest version)
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
           <h1 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Ready to transform your customer experience?
