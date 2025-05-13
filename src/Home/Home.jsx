@@ -145,7 +145,7 @@ const Home = () => {
           aria-label="Thunder Auto promotional video"
         ></video>
         <div className="absolute duration-300 top-0 left-0 w-full h-full flex items-center text-center justify-center font-bold text-2xl sm:text-5xl text-color1 z-10">
-          <h1 className="sr-only">Thunder Auto - Automotive Solutions</h1>
+          <h2 className="sr-only">Thunder Auto - Automotive Solutions</h2>
           <p aria-live="polite">{carouselData[carouselIndex]}</p>
         </div>
       </section>
