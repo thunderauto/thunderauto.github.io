@@ -136,7 +136,7 @@ const Gallery = () => {
           size="lg"
           className="pb-4"
         />
-        <h1 className="text-4xl font-bold mb-4 ml-2">FAQs</h1>
+        <h2 className="text-4xl font-bold mb-4 ml-2">FAQs</h2>
       </div>
       {faqOpen && (
         <div className="mb-8">
@@ -153,7 +153,7 @@ const Gallery = () => {
           size="lg"
           className="pb-4"
         />
-        <h1 className="text-4xl font-bold mb-4 ml-2">Case Studies</h1>
+        <h2  className="text-4xl font-bold mb-4 ml-2">Case Studies</h2>
       </div>
       {caseStudiesOpen && (
         <div>

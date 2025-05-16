@@ -48,9 +48,9 @@ const Service = () => {
       <div>
         <blockquote className="flex items-start max-w-5xl mx-auto my-6 xs:my-2 text-center p-7 sm:p-12 bg-gray-200 rounded-xl shadow-xl border border-gray-200">
           <FaQuoteLeft className="text-9xl text-[#2d5f98]" aria-hidden="true" />
-          <p className="text-xl capitalize sm:text-4xl mt-2 text-color4/90 font-bold font-Mont">
+          <h1 className="text-xl capitalize sm:text-4xl mt-2 text-color4/90 font-bold font-Mont">
             Best Portable Car Lifting Solutions in India - Efficient and safe
-          </p>
+          </h1>
         </blockquote>
  
         <section className="max-w-7xl w-full mx-auto text-center py-10">

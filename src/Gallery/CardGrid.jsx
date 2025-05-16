@@ -15,9 +15,9 @@ const CardGrid = ({ title, images }) => {
 
   return (
     <div>
-      <h1 className="text-color3 text-4xl sm:text-5xl font-bold font-Mont tracking-tighter mb-8">
+      <h2 className="text-color3 text-4xl sm:text-5xl font-bold font-Mont tracking-tighter mb-8">
         {title}
-      </h1>
+      </h2>
       <div className="grid grid-cols-3 gap-6">
         {images.slice(0, showMore ? images.length : 6).map((image, index) => (
           <Card key={index} image={image} />

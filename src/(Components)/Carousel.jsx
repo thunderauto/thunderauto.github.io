@@ -21,7 +21,7 @@ export function CarouselComp({ data, className }) {
             }}
             className="w-full h-full flex items-center justify-center"
           >
-            <h1
+            <h2
               className="font-Mont text-2xl sm:text-3xl lg:text-4xl font-bold  text-color1 text-center
             
             
@@ -29,7 +29,7 @@ export function CarouselComp({ data, className }) {
             >
               {" "}
               {item.content}
-            </h1>
+            </h2>
           </div>
         ))}
       </Carousel>

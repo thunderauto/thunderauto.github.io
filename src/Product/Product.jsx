@@ -109,9 +109,9 @@ const Mobile = () => {
             <h1 className="text-lg  text-[#2d5f98] mb-4">
             Thunder Profimaster Mobile Car Lift
             </h1>
-            <h2 className="text-4xl font-bold mb-8 text-center sm:text-left">
+            <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
             Efficient & Safe Car Lift for Garages & Workshops
-            </h2>
+            </h1>
             <p className="mb-6 text-center sm:text-left">
               Experience the seamless integration of advanced technology with
               Thunder ProfiMaster 3000. This cutting-edge system enhances the
@@ -138,10 +138,10 @@ const Mobile = () => {
       <div className="bg-gray-200 py-10  sm:py-20">
         <div className="flex flex-col sm:flex-row p-2 gap-10 w-full max-w-7xl mx-auto">
           <div className="w-full sm:w-1/2">
-            <h1 className=" text-2xl sm:text-4xl font-semibold mb-8">
+            <h2 className=" text-2xl sm:text-4xl font-semibold mb-8">
               Revolutionize your automotive repair experience with advanced
               technology
-            </h1>
+            </h2>
             <p>
               Discover the power of Thunder ProfiMaster 3000 – the ultimate
               solution for automotive lifting needs. Whether it's lifting cars,
@@ -179,16 +179,16 @@ const Build = () => {
   return (
     <div className="w-full">
       <div className="max-w-7xl w-full mx-auto py-20 text-center">
-        <h1 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+        <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
           {contentSections[2].title}
-        </h1>
+        </h2>
         <div className="grid md:grid-cols-3">
           {contentSections[2].description.map((item, index) => (
             <div className="flex flex-col" key={index}>
               <div className="flex items-center justify-start text-orange-400">
                 <img src={item.comp} />
               </div>
-              <h1 className="text-xl font-semibold">{item.title}</h1>
+              <h2 className="text-xl font-semibold">{item.title}</h2>
             </div>
           ))}
         </div>
@@ -204,13 +204,13 @@ const Build = () => {
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
           <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
-          <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
+          <h2 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             "Thunder ProfiMaster 3000 integrates seamlessly into our commitment
             to enhancing customer service and satisfaction. Thunder ProfiMaster
             3000 transforms the automotive repair landscape, offering tailored
             solutions and innovative features. Invest in the future of
             automotive maintenance with Thunder ProfiMaster 3000."
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
@@ -233,9 +233,9 @@ const Product = () => {
       <Mobile />
       <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
         <div className="flex gap-5 flex-col md:flex-row items-center justify-center max-w-7xl w-full mx-auto">
-          <h1 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Crafting the perfect Mobile Lift Solution : A Guide
-          </h1>
+          </h2>
 
           <a
             href="brochure1.pdf"
@@ -249,9 +249,9 @@ const Product = () => {
       <Build />
       <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h1 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Ready to transform your customer experience?
-          </h1>
+          </h2>
 
           <button className="mx-auto mt-5 md:mt-0 col-span-2 px-6 py-3 rounded-lg bg-color3 text-white font-semibold hover:bg-opacity-80 transition duration-300">
             Request a demo

@@ -112,9 +112,9 @@ const Quote = ({ disable = true }) => {
 
       {disable ? (
         <>
-          <h1 className="text-color4  my-6 sm:my-8 font-Mont text-4xl font-bold">
+          <h2 className="text-color4  my-6 sm:my-8 font-Mont text-4xl font-bold">
             Product
-          </h1>
+          </h2>
           <div className="grid grid-cols-2 text-sm text-[#eeeeee] gap-5">
             {[
               "Thunder profitmaster 3000",

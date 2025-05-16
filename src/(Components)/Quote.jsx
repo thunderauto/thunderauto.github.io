@@ -26,7 +26,7 @@ const Menu = ({ title, desc, i }) => {
         <TbAerialLift className="text-color1 text-4xl bg-gradient-to-r rounded-full from-[#2d5f98] to-[#d12e28]" />
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="font-semibold text-xl">{title}</h1>
+            <h2 className="font-semibold text-xl">{title}</h2>
             <Tooltip content={i}>
               <InfoIcon />
             </Tooltip>
@@ -97,7 +97,7 @@ const Quote = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row  items-center justify-around py-10 ">
             <div className="max-w-sm text-center md:text-left">
-              <h1 className="font-bold text-4xl mb-2">Get a Quote</h1>
+              <h2 className="font-bold text-4xl mb-2">Get a Quote</h2>
               <p className="font-semibold text-3xl">
                 Test our products and experience the scale, grade and class.
               </p>
@@ -111,9 +111,9 @@ const Quote = () => {
       </div>
       <div className="max-w-7xl mx-auto w-full p-10 flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2">
-          <h1 className="font-semibold text-3xl mb-4">
+          <h2 className="font-semibold text-3xl mb-4">
             Select the primary product you are interested in :
-          </h1>
+          </h2>
           {quote.map((item, index) => (
             <Menu key={index} title={item.title} desc={item.desc} i={item.i} />
           ))}
@@ -123,9 +123,9 @@ const Quote = () => {
         </div>
       </div>
       <div className="max-w-7xl w-full mx-auto text-center py-10">
-        <h1 className="font-bold text-4xl mb-4 sm:mb-8">
+        <h2 className="font-bold text-4xl mb-4 sm:mb-8">
           Recognized by the clients
-        </h1>
+        </h2>
         <div className="mx-auto w-full h-56">
           <Carousel pauseOnHover>
             {cara.map((item, index) => (

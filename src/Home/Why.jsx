@@ -38,9 +38,9 @@ const Why = () => {
 />
     <div className="text-center font-Mont ">
       <div className="bg-gradient-to-l flex flex-col  w-full py-5 rounded">
-        <h1 className="text-xl text-color4  mb-4 sm:text-3xl font-semibold ">
+        <h2 className="text-xl text-color4  mb-4 sm:text-3xl font-semibold ">
           What We Offer
-        </h1>
+        </h2>
         <h2 className="flex items-center mx-auto text-color3 text-xl font-semibold">
           We Are Expert In
           <svg

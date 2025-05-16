@@ -18,12 +18,12 @@ const Mobile = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col sm:flex-row justify-between ">
           <div className="flex flex-col w-full sm:w-1/2 py-10">
-            <h1 className="text-lg  text-[#2d5f98] mb-4">
+            <h2 className="text-lg  text-[#2d5f98] mb-4">
               Thunder Aluminium Ingots
-            </h1>
-            <h2 className="text-4xl font-bold mb-8 text-center sm:text-left">
-            High-Quality Aluminium Ingots for Industrial Use
             </h2>
+            <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
+            High-Quality Aluminium Ingots for Industrial Use
+            </h1>
             <p className="mb-6 text-center sm:text-left">
               Thunder Auto LLP is a leading name in the field of aluminium
               recycling, offering comprehensive solutions for industries looking
@@ -53,9 +53,9 @@ const Product1 = () => {
   return (
     <div className="flex items-start max-w-7xl mx-auto  my-6 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Thriving in Coimbatore's Foundry Hub
-        </h1>
+        </h2>
         <p>
           Situated in Coimbatore, a city renowned for its foundries and
           metalworking industries, Thunder Auto LLP benefits from its strategic
@@ -74,9 +74,9 @@ const Product2 = () => {
   return (
     <div className="flex items-start max-w-7xl mx-auto  my-6 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Comprehensive Recycling Solutions - Transforming Scrap into Ingots
-        </h1>
+        </h2>
         <p>
           At our state-of-the-art facility in Coimbatore, we specialize in
           recycling various types of aluminium scrap, including automotive
@@ -97,9 +97,9 @@ const Product3 = () => {
   return (
     <div className="flex items-start max-w-6xl mx-auto  my-6 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Diverse Range of Alloys
-        </h1>
+        </h2>
         <p>
           Thunder Auto LLP takes pride in offering a diverse range of aluminium
           alloys tailored to meet the specific needs of our clients. Whether you
@@ -122,9 +122,9 @@ const Product4 = () => {
   return (
     <div className="flex items-start max-w-5xl mx-auto  my-5 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Versatile and Adaptable
-        </h1>
+        </h2>
         <p>
           One of the key features of the Thunder Strut Spring Compressor is its
           versatility. It can accommodate different models of spring designs,
@@ -141,9 +141,9 @@ const Product5 = () => {
   return (
     <div className="flex items-start max-w-4xl mx-auto  my-6 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Speed and Efficiency
-        </h1>
+        </h2>
         <p>
           With a spring compression time of less than 10 seconds, the Thunder
           Strut Spring Compressor is one of the fastest and most efficient tools
@@ -159,9 +159,9 @@ const Product6 = () => {
   return (
     <div className="flex items-start max-w-3xl mx-auto  my-6 xs:my-2 text-center p-5 sm:p-12 bg-white rounded-xl shadow-xl border border-gray-200">
       <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-col py-2 gap-5 items-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold mb-8">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-8">
           Durable Construction for Longevity
-        </h1>
+        </h2>
         <p>
           Built to withstand the rigors of daily use in a busy workshop
           environment, the Thunder Strut Spring Compressor is constructed from
@@ -178,16 +178,16 @@ const Build = () => {
   return (
     <div className="w-full">
       {/* <div className="max-w-7xl w-full mx-auto py-20 text-center">
-        <h1 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+        <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
           {contentSections[2].title}
-        </h1>
+        </h2>
         <div className="grid md:grid-cols-3">
           {contentSections[2].description.map((item, index) => (
             <div className="flex flex-col" key={index}>
               <div className="flex items-center justify-start text-orange-400">
                 <img src={item.comp} />
               </div>
-              <h1 className="text-xl font-semibold">{item.title}</h1>
+              <h2 className="text-xl font-semibold">{item.title}</h2>
             </div>
           ))}
         </div>
@@ -203,14 +203,14 @@ const Build = () => {
       >
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
           <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
-          <h1 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
+          <h2 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
             “ Join us in our mission to close the loop on aluminium recycling
             and promote a sustainable future. Thunder Auto LLP is committed to
             promoting sustainability through aluminium recycling. Join us in our
             mission to close the loop on aluminium recycling and create a more
             sustainable future for generations to come. Together, we can make a
             difference and contribute to a cleaner, greener planet.”
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
@@ -240,9 +240,9 @@ const Product = () => {
       <Build />
       <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h1 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
             Ready to transform your customer experience?
-          </h1>
+          </h2>
 
           <button className="mx-auto mt-5 md:mt-0 col-span-2 px-6 py-3 rounded-lg bg-color3 text-white font-semibold hover:bg-opacity-80 transition duration-300">
             Request a demo

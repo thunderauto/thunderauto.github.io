@@ -13,7 +13,7 @@ const Product = ({ item }) => {
       <div className="row-span-2 relative flex items-center justify-center flex-col text-color1 ">
         <img src={item.img} className="rounded w-full" />
 
-        <h1 className="absolute top-5 text-color3">{item.title}</h1>
+        <h2 className="absolute top-5 text-color3">{item.title}</h2>
         <Link to={item.link}> View Accessories</Link>
       </div>
 
@@ -24,7 +24,7 @@ const Product = ({ item }) => {
             className="flex items-center justify-center text-color1 flex-col"
           >
             <img src={item.img} className="rounded" />
-            <h1 className="text-color3">{item.title}</h1>
+            <h2 className="text-color3">{item.title}</h2>
           </div>
         ))}
       </div>

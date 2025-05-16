@@ -3,9 +3,9 @@
 //   return (
 //     <div className="animate-fade-left duration-300 text-color3 font-Mont flex flex-col md:flex-row py-10 p-10 sm:px-10 gap-20">
 //       <div className="space-y-6 py-10 px-10 md:px-0  flex items-start justify-center flex-col">
-//         <h1 className="font-bold font-Mont text-2xl text-color4 sm:text-4xl">
+//         <h2 className="font-bold font-Mont text-2xl text-color4 sm:text-4xl">
 //           WHO WE ARE
-//         </h1>
+//         </h2>
 //         <p className="font-medium font-Mont text-2xl text-left">
 //           THUNDER AUTO LLP is a new name in providing “VEHICLE LIFTING SOLUTIONS
 //           MADE EASY” which means vehicle lifting is now completely redefined

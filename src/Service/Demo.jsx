@@ -3,9 +3,9 @@ import Input from "@/(Components)/Input";
 const Demo = () => {
   return (
     <div className="max-w-xl w-full bg-gray-200 p-10 rounded-l-lg">
-      <h1 className="text-color3 font-bold font-Mont mb-6 sm:mb-8 text-4xl">
+      <h2 className="text-color3 font-bold font-Mont mb-6 sm:mb-8 text-4xl">
         Request Demo
-      </h1>
+      </h2>
       <div className="w-full  grid-cols-2 grid gap-5">
         <Input type={"text"} placeholder={"Name"} />
         <Input type={"email"} placeholder={"Email"} />
@@ -21,9 +21,9 @@ const Demo = () => {
         ></textarea>
       </div>
 
-      <h1 className="text-color4 font-Mont my-6 sm:my-8  text-4xl font-bold">
+      <h2 className="text-color4 font-Mont my-6 sm:my-8  text-4xl font-bold">
         Product
-      </h1>
+      </h2>
       <div className="grid grid-cols-2 text-color3 gap-5">
         {[
           "Thunder profitmaster 3000",
