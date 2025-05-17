@@ -2,7 +2,7 @@
   "name": "thunder",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://thunderauto.github.io",
+  "homepage": "https://thunderauto.vercel.app",
   "type": "module",
   "scripts": {
     "dev": "vite",
