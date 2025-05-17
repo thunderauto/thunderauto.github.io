@@ -4,15 +4,66 @@ import { HoverEffect } from "@/(Components)/HoverEffect";
 import SEOComponent from '../(Components)/SEOComponent';
 import { FaQuoteLeft } from "react-icons/fa";
 import { Carousel } from "flowbite-react";
+import { useMemo } from 'react';
 
 const Service = () => {
- 
-
-  const cara = [
-    "./icon/1.jpg", "./icon/1.png", "./icon/8.png",
-    "./icon/2.png", "./icon/3.png", "./icon/4.png",
-    "./icon/5.png", "./icon/6.png", "./icon/7.png"
-  ];
+  // Memoize the image array to prevent unnecessary re-renders
+  const cara = useMemo(() => [
+    {
+      src: "./icon/1.jpg",
+      width: 300,
+      height: 200,
+      alt: "Client logo 1"
+    },
+    {
+      src: "./icon/1.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 2"
+    },
+    {
+      src: "./icon/8.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 3"
+    },
+    {
+      src: "./icon/2.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 4"
+    },
+    {
+      src: "./icon/3.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 5"
+    },
+    {
+      src: "./icon/4.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 6"
+    },
+    {
+      src: "./icon/5.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 7"
+    },
+    {
+      src: "./icon/6.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 8"
+    },
+    {
+      src: "./icon/7.png",
+      width: 300,
+      height: 200,
+      alt: "Client logo 9"
+    }
+  ], []);
 
   return (
     <section>
@@ -33,18 +84,31 @@ const Service = () => {
             Recognized by the clients
           </h2>
           <div className="mx-auto w-full h-56">
-            <Carousel pauseOnHover slideInterval={1000}>
-              {cara.map((data, index) => (
+            <Carousel 
+              pauseOnHover 
+              slideInterval={1000}
+              indicators={false}
+              leftControl={false}
+              rightControl={false}
+            >
+              {cara.map((image, index) => (
                 <div
                   key={index}
                   className="flex items-center justify-center relative group h-40 md:h-56"
                 >
                   <img 
-                    src={data} 
-                    style={{ filter: 'grayscale(100%)' }}
-                    alt={`Client logo ${index + 1}`}
+                    src={image.src}
+                    width={image.width}
+                    height={image.height}
+                    alt={image.alt}
                     loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-contain"
+                    style={{ 
+                      filter: 'grayscale(100%)',
+                      contentVisibility: 'auto'
+                    }}
+                    fetchPriority={index < 3 ? "high" : "low"}
                   />
                 </div>
               ))}

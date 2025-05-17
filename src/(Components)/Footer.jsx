@@ -86,10 +86,7 @@ const Footer = () => {
       title: "Product Archive",
       link: "/thunder-profimaster-mobile-car-lift",
     },
-    // {
-    //   title: "Privacy policy",
-    //   link: "",
-    // },
+
   ];
   const social = [
     {

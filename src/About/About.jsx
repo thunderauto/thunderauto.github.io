@@ -72,13 +72,7 @@ const About = () => {
     <div>
       <div
         className="w-full"
-        // style={{
-        //   background:
-        //     "linear-gradient(to bottom, rgba(255,0255,0255,0.6), rgba(255,255,255,0.5)), url('./images/background.jpg')",
-        //   backgroundRepeat: "no-repeat",
-        //   backgroundSize: "cover",
-        //   backgroundPosition: "center",
-        // }}
+    
       >
         <div className="grid md:grid-cols-2 mt-10 sm:mt-20  px-10 gap-20 h-full max-w-7xl w-full mx-auto">
           {visionAndMission.map((item, index) => (
