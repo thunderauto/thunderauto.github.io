@@ -175,7 +175,8 @@ const Footer = () => {
               ))}
             </ul>
             <Link to={"#"}>
-              <button className="px-4 py-2 text-color1 font-medium bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] hover:bg-[#2d5f98] rounded mt-4">
+              {/* <button className="px-4 py-2 text-color1 font-medium bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] hover:bg-[#2d5f98] rounded mt-4"> */}
+              <button className="px-4 py-2 text-color1 font-medium bg-[#d12e28] hover:bg-[#2d5f98] rounded mt-4">
                 Reach Us
               </button>
             </Link>

@@ -15,7 +15,8 @@ const What = () => {
   };
 
   return (
-    <section className="w-full py-20 px-5 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-color1">
+    // <section className="w-full py-20 px-5 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-white">
+     <section className="w-full py-20 px-5 bg-[#2d5f98] text-white">
       <div className="max-w-7xl mx-auto w-full md:px-10">
         <h2 className="font-Poppins text-2xl font-semibold">
           What Thunder Auto Do For You ?
