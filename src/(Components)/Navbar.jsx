@@ -27,22 +27,22 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 left-0 z-50 w-full bg-color1 font-MontF border-b-2">
       <div className="relative rounded-xl flex justify-between items-center w-full max-w-7xl mx-auto py-5 px-5 font-Mont">
-        {/* <Link
+        <Link
           to="/"
           className="text-[#2d5f98] cursor-pointer tracking-tighter  hover:text-[#d12e28] text-2xl sm:text-5xl  font-semibold"
         >
           Thunder
-        </Link> */}
-        <a
+        </Link>
+        {/* <a
           href="#"
           className="cursor-pointer hover:opacity-80 transition-opacity duration-300"
         >
           <img 
-            src="public/logo.jpg" 
-            alt="Thunder Logo" 
-            className="h-10 w-20 md:h-12 md:w-24"
+            src="/logo.jpg" 
+            alt="Thunder" 
+            className="h-10 w-20 md:h-12 md:w-22"
           />
-        </a>
+        </a> */}
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
