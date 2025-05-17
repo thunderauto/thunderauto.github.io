@@ -26,9 +26,9 @@ const Contact = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 px-4 sm:px-6 w-full gap-10">
         <div className="animate-fade-left animate-duration-500 border-opacity-50 antialiased mt-10 sm:mt-20 lg:mt-0 flex items-center  flex-col text-color4 font-Mont  ">
           <div className="bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28] text-color1 rounded pt-5 text-center w-full">
-            <h2 className="text-color3 text-4xl sm:text-4xl font-bold font-Mont tracking-tighter mb-8">
+            <h1 className="text-color3 text-4xl sm:text-4xl font-bold font-Mont tracking-tighter mb-8">
               Contact Info
-            </h2>
+            </h1>
           </div>
 
           <div className="grid grid-cols-1 p-10 rounded bg-gray-100 text-color3 sm:grid-cols-2 gap-8 mt-5">

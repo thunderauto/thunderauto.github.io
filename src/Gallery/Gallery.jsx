@@ -42,7 +42,7 @@ import {
   faChevronRight,
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
-import SEOComponent from '../(Components)/SEOComponent';
+import SEOComponent from "../(Components)/SEOComponent";
 
 const FAQVideos = [
   "https://www.youtube.com/embed/rWka3UteyYs?si=AIFr9QCei_ssjjDh",
@@ -83,29 +83,29 @@ const VideoPlayer = ({ videoList }) => {
 
   return (
     <>
-     <SEOComponent
-    title="FAQ"
-    description="Find Common Questions About Thunder Auto Portable Car Lift. Get the Information You Need to Make Informed Decisions. Visit Our FAQ Page!" 
-/>
-    <div className="w-full md:grid grid-cols-3 relative">
-      {videoList.map((video, index) => (
-        <div
-          key={index}
-          className={`w-full  p-4 hover:transform hover:scale-105`}
-        >
-          <iframe
-            className="border-[#d12e28] border-4 rounded-lg transition-transform duration-300"
-            width="100%"
-            height="240"
-            src={video}
-            title="YouTube Video Player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      ))}
-    </div>
+      <SEOComponent
+        title="FAQ"
+        description="Find Common Questions About Thunder Auto Portable Car Lift. Get the Information You Need to Make Informed Decisions. Visit Our FAQ Page!"
+      />
+      <div className="w-full md:grid grid-cols-3 relative">
+        {videoList.map((video, index) => (
+          <div
+            key={index}
+            className={`w-full  p-4 hover:transform hover:scale-105`}
+          >
+            <iframe
+              className="border-[#d12e28] border-4 rounded-lg transition-transform duration-300"
+              width="100%"
+              height="240"
+              src={video}
+              title="YouTube Video Player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
+      </div>
     </>
   );
 };
@@ -136,7 +136,7 @@ const Gallery = () => {
           size="lg"
           className="pb-4"
         />
-        <h2 className="text-4xl font-bold mb-4 ml-2">FAQs</h2>
+        <h1 className="text-4xl font-bold mb-4 ml-2">FAQs</h1>
       </div>
       {faqOpen && (
         <div className="mb-8">
@@ -153,7 +153,7 @@ const Gallery = () => {
           size="lg"
           className="pb-4"
         />
-        <h2  className="text-4xl font-bold mb-4 ml-2">Case Studies</h2>
+        <h2 className="text-4xl font-bold mb-4 ml-2">Case Studies</h2>
       </div>
       {caseStudiesOpen && (
         <div>
