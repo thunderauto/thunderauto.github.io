@@ -51,9 +51,9 @@ const Quote = () => {
   }, []);
   const quote = [
     {
-      title: "T-Profimaster 3000",
+      title: "T-Portable Car Lift",
       desc: "Mobile lifting solution",
-      i: "Thunder Profimaster 3000 Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
+      i: "Thunder Portable Car Lift Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
     },
     {
       title: "T-Transport Dolly",

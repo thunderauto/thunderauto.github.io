@@ -30,16 +30,16 @@ const contentSections = [
   },
   {
     title: "Customer Testimonial",
-    description: `"Thunder ProfiMaster 3000 integrates seamlessly into our commitment to enhancing customer service and satisfaction..."`,
+    description: `"Thunder Portable Car Lift integrates seamlessly into our commitment to enhancing customer service and satisfaction..."`,
   },
   {
-    title: "THUNDER ProfiMaster 3000 in Action",
+    title: "Thunder Portable Car Lift in Action",
     description: "Video clip",
     features: [
       {
         title: "Versatile Inspection Capability",
         description:
-          "With Thunder ProfiMaster 3000, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors...",
+          "With Thunder Portable Car Lift, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors...",
       },
       {
         title: "Enhanced Damage Assessment",
@@ -65,7 +65,7 @@ const VideoPlayer = () => {
     <div className="w-full h-full flex justify-center items-center ">
       <iframe
         className="
-      border-orange-400 border-4 rounded-lg"
+      border-[#d12e28] border-4 rounded-lg"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/qkoPSWhRcjI?si=aO4ZMEfxP3P5RnOn"
@@ -126,13 +126,12 @@ const Product1 = () => {
           Innovative Design for Easy Maneuverability
         </h2>
         <p>
-          Discover the power of Thunder ProfiMaster 3000 – the ultimate solution
+          Discover the power of Thunder Portable Car Lift – the ultimate solution
           for automotive lifting needs. Whether it's lifting cars, off-road
           vehicles, vans, or small buses, this versatile system streamlines
           operations and enhances efficiency. Automate your lifting tasks with
           precision, reducing manual effort and improving workflow. Boost
-          productivity and ensure ergonomic working conditions with Thunder
-          ProfiMaster 3000.
+          productivity and ensure ergonomic working conditions with Thunder Portable Car Lift.
         </p>
       </div>
     </div>
@@ -215,21 +214,7 @@ const Product5 = () => {
 const Build = () => {
   return (
     <div className="w-full">
-      {/* <div className="max-w-7xl w-full mx-auto py-20 text-center">
-        <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
-          {contentSections[2].title}
-        </h2>
-        <div className="grid md:grid-cols-3">
-          {contentSections[2].description.map((item, index) => (
-            <div className="flex flex-col" key={index}>
-              <div className="flex items-center justify-start text-orange-400">
-                <img src={item.comp} />
-              </div>
-              <h2 className="text-xl font-semibold">{item.title}</h2>
-            </div>
-          ))}
-        </div>
-      </div> */}
+  
       <div
         style={{
           background:
@@ -293,7 +278,7 @@ const Product = () => {
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
             Ready to transform your customer experience?
           </h2>
 

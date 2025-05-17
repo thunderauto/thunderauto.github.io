@@ -6,9 +6,9 @@ const Why = () => {
   const expertise = [
     {
       img:"./images/profimaster.jpeg",
-      title: "Thunder Profimaster 3000",
+      title: "Thunder Portable Car Lift",
       description:
-        "Thunder Profimaster 3000 Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
+        "Thunder Portable Car Lift Universal Lift is a mobile lifting solution, which can be used as single or in systems with 2 0r 4 columns.",
     },
     {
       img:"./images/Dolly.jpeg",

@@ -1,40 +1,4 @@
-// import { useEffect } from "react";
-// import CardGrid from "./CardGrid";
 
-// const images = [
-//   {
-//     src: "/Photos/Thunder__14.png",
-//     alt: "Image 2",
-//     title: "Thunder Profimaster 3000",
-//   },
-//   { src: "/Photos/Thunder (10).JPG", alt: "Image 1", title: "Jack Stand" },
-
-//   { src: "/Photos/Thunder (17).JPG", alt: "Image 3", title: "" },
-//   { src: "/Photos/Thunder (20).JPG", alt: "Image 4", title: "" },
-//   { src: "/Photos/Thunder (23).JPG", alt: "Image 5", title: "" },
-//   { src: "/Photos/Thunder (24).JPG", alt: "Image 6", title: "" },
-//   { src: "/Photos/Thunder (67).JPG", alt: "Image 7", title: "" },
-//   { src: "/Photos/Thunder (68).JPG", alt: "Image 8", title: "" },
-//   { src: "/Photos/Thunder (70).JPG", alt: "Image 9", title: "" },
-//   { src: "/Photos/Thunder (71).JPG", alt: "Image 10", title: "" },
-//   { src: "/Photos/Thunder (72).JPG", alt: "Image 11", title: "" },
-//   { src: "/Photos/Thunder (73).JPG", alt: "Image 12", title: "" },
-//   { src: "/Photos/Thunder (75).JPG", alt: "Image 13", title: "" },
-//   { src: "/Photos/Thunder (76).JPG", alt: "Image 14", title: "" },
-// ];
-
-// const Gallery = () => {
-//   useEffect(() => {
-//     window.scrollTo(0, 0);
-//   }, []);
-//   return (
-//     <div className="container mx-auto py-8">
-//       <CardGrid title={"Image Gallery"} images={images} />
-//     </div>
-//   );
-// };
-
-// export default Gallery;
 
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

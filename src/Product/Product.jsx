@@ -7,15 +7,15 @@ import { InfoIcon } from "lucide-react";
 import SEOComponent from '../(Components)/SEOComponent';
 const contentSections = [
   {
-    title: "THUNDER ProfiMaster 3000",
+    title: "Thunder Portable Car Lift",
     description:
-      "Elevate your auto repair game with precision and power. Experience the seamless integration of advanced technology with Thunder ProfiMaster 3000...",
+      "Elevate your auto repair game with precision and power. Experience the seamless integration of advanced technology with Thunder Portable Car Lift...",
   },
   {
     title:
       "Revolutionize your automotive repair experience with advanced technology",
     description:
-      "Discover the power of Thunder ProfiMaster 3000 – the ultimate solution for automotive lifting needs...",
+      "Discover the power of Thunder Portable Car Lift – the ultimate solution for automotive lifting needs...",
   },
   {
     title:
@@ -34,16 +34,16 @@ const contentSections = [
   },
   {
     title: "Customer Testimonial",
-    description: `"Thunder ProfiMaster 3000 integrates seamlessly into our commitment to enhancing customer service and satisfaction..."`,
+    description: `"Thunder Portable Car Lift integrates seamlessly into our commitment to enhancing customer service and satisfaction..."`,
   },
   {
-    title: "THUNDER ProfiMaster 3000 in Action",
+    title: "Thunder Portable Car Lift in Action",
     description: "Video clip",
     features: [
       {
         title: "Versatile Inspection Capability",
         description:
-          "With Thunder ProfiMaster 3000, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors...",
+          "With Thunder Portable Car Lift, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors...",
       },
       {
         title: "Enhanced Damage Assessment",
@@ -67,7 +67,7 @@ const contentSections = [
 const features = [
   {
     title: "Versatile Inspection Capability",
-    i: "With Thunder ProfiMaster 3000, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors. Its flexibility allows for thorough assessment, ensuring accurate damage evaluation.",
+    i: "With Thunder Portable Car Lift, automotive inspection becomes effortless. Lift the car from any side to facilitate visual inspection by insurance surveyors. Its flexibility allows for thorough assessment, ensuring accurate damage evaluation.",
   },
   {
     title: "Enhanced Damage Assessment",
@@ -114,9 +114,9 @@ const Mobile = () => {
             </h1>
             <p className="mb-6 text-center sm:text-left">
               Experience the seamless integration of advanced technology with
-              Thunder ProfiMaster 3000. This cutting-edge system enhances the
+              Thunder Portable Car Lift. This cutting-edge system enhances the
               self-service landscape by providing efficient solutions for
-              automotive lifting tasks. With Thunder ProfiMaster 3000,
+              automotive lifting tasks. With Thunder Portable Car Lift,
               efficiency and precision are guaranteed, ensuring smoother
               operations in the auto repair industry. Embrace innovation and
               elevate your automotive lifting game today.
@@ -143,13 +143,13 @@ const Mobile = () => {
               technology
             </h2>
             <p>
-              Discover the power of Thunder ProfiMaster 3000 – the ultimate
+              Discover the power of Thunder Portable Car Lift – the ultimate
               solution for automotive lifting needs. Whether it's lifting cars,
               off-road vehicles, vans, or small buses, this versatile system
               streamlines operations and enhances efficiency. Automate your
               lifting tasks with precision, reducing manual effort and improving
               workflow. Boost productivity and ensure ergonomic working
-              conditions with Thunder ProfiMaster 3000.
+              conditions with Thunder Portable Car Lift.
             </p>
           </div>
           <div className="w-full sm:w-1/2 flex items-center  flex-col ">
@@ -205,11 +205,11 @@ const Build = () => {
         <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row py-20 gap-5 items-center">
           <FaQuoteLeft className="text-4xl md:text-9xl text-[#2d5f98]" />
           <h2 className="text-justify px-4 md:px-0 text-gray-900 text-xl font-medium">
-            "Thunder ProfiMaster 3000 integrates seamlessly into our commitment
+            "Thunder Portable Car Lift integrates seamlessly into our commitment
             to enhancing customer service and satisfaction. Thunder ProfiMaster
             3000 transforms the automotive repair landscape, offering tailored
             solutions and innovative features. Invest in the future of
-            automotive maintenance with Thunder ProfiMaster 3000."
+            automotive maintenance with Thunder Portable Car Lift."
           </h2>
         </div>
       </div>
@@ -234,7 +234,7 @@ const Product = () => {
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
         <div className="flex gap-5 flex-col md:flex-row items-center justify-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl  sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
             Crafting the perfect Mobile Lift Solution : A Guide
           </h2>
 
@@ -251,7 +251,7 @@ const Product = () => {
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
             Ready to transform your customer experience?
           </h2>
 

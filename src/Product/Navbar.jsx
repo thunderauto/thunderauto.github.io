@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const links = [
-    { to: "/thunder-profimaster-mobile-car-lift", text: "ProfiMaster 3000" },
+    { to: "/thunder-profimaster-mobile-car-lift", text: "Thunder Portable Car Lift" },
     { to: "/thunder-transport-dolly", text: "Transport Dolly" },
     { to: "/thunder-strut-spring-compressor", text: "Strut Spring Compressor" },
     { to: "/thunder-aluminium-ingots", text: "Aluminium Ingots" },
