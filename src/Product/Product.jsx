@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
-import Navbar from "./Navbar";
+import SubNavbar from "./Navbar";
+
 import { Tooltip } from "flowbite-react";
 import { InfoIcon } from "lucide-react";
 import SEOComponent from '../(Components)/SEOComponent';
@@ -107,7 +108,7 @@ const Mobile = () => {
         <div className="flex flex-col sm:flex-row justify-between ">
           <div className="flex flex-col w-full sm:w-1/2 py-10">
             <h1 className="text-lg  text-[#2d5f98] mb-4">
-            Thunder Profimaster Mobile Car Lift
+            Thunder Portable Car Lift
             </h1>
             <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
             Efficient & Safe Car Lift for Garages & Workshops
@@ -229,7 +230,7 @@ const Product = () => {
 />
     <div>
   
-      <Navbar />
+      <SubNavbar />
       <Mobile />
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
