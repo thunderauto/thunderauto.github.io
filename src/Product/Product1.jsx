@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import SubNavbar from "./Navbar";
-import SEOComponent from "../(Components)/SEOComponent";
+import SEOComponent from '../(Components)/SEOComponent';
 const contentSections = [
   {
     title: "Thunder Transport Dolly",
@@ -88,10 +88,9 @@ const Mobile = () => {
               Thunder Transport Dolly
             </h2>
             <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
-              Vehicle Transport Dolly for Seamless Vehicle Transfers Within Your
-              Workspace
+            Vehicle Transport Dolly for Seamless Vehicle Transfers Within Your Workspace
             </h1>
-            <p>
+            <p className="mb-6">
               The Transport Dolly stands as a pinnacle of innovation in the
               realm of vehicle handling, offering a seamless solution for the
               movement of immobile vehicles within service centers, garages, and
@@ -127,13 +126,12 @@ const Product1 = () => {
           Innovative Design for Easy Maneuverability
         </h2>
         <p>
-          Discover the power of Thunder Portable Car Lift – the ultimate
-          solution for automotive lifting needs. Whether it's lifting cars,
-          off-road vehicles, vans, or small buses, this versatile system
-          streamlines operations and enhances efficiency. Automate your lifting
-          tasks with precision, reducing manual effort and improving workflow.
-          Boost productivity and ensure ergonomic working conditions with
-          Thunder Portable Car Lift.
+          Discover the power of Thunder Portable Car Lift – the ultimate solution
+          for automotive lifting needs. Whether it's lifting cars, off-road
+          vehicles, vans, or small buses, this versatile system streamlines
+          operations and enhances efficiency. Automate your lifting tasks with
+          precision, reducing manual effort and improving workflow. Boost
+          productivity and ensure ergonomic working conditions with Thunder Portable Car Lift.
         </p>
       </div>
     </div>
@@ -216,6 +214,7 @@ const Product5 = () => {
 const Build = () => {
   return (
     <div className="w-full">
+  
       <div
         style={{
           background:
@@ -246,34 +245,49 @@ const Product = () => {
   }, []);
   return (
     <>
-      <SEOComponent
-        title="Thunder Transport Dolly | Effortlessly transfer your vehicle"
-        description="We Understand How Challenging It Can Be to Move Vehicles Around in Your Workshop. The Only Reason We Designed Thunder Auto's Heavy-Duty Transport Dolly"
-      />
+     <SEOComponent
+    title="Thunder Transport Dolly | Effortlessly transfer your vehicle"
+    description="We Understand How Challenging It Can Be to Move Vehicles Around in Your Workshop. The Only Reason We Designed Thunder Auto's Heavy-Duty Transport Dolly" 
+/>
 
-      <div>
-        <SubNavbar />
-        <Mobile />
-        <Product1 />
-        <Product2 />
-        <Product4 />
-        <Product3 />
-        <Product5 />
+    <div>
+      
+      <SubNavbar />
+      <Mobile />
+      <Product1 />
+      <Product2 />
+      <Product4 />
+      <Product3 />
+      <Product5 />
+      {/* <div className="md:px-20 py-10 bg-gradient-to-r from-color2 via-orange-400 to-orange-400">
+        <div className="flex flex-col md:flex-row items-center jus max-w-7xl w-full mx-auto">
+          <h2 className="text-xl w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont">
+            How to choose a Mobile Lift Solution
+          </h2>
 
-        <Build />
-        {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
-        <div className="md:px-20 py-10 bg-[#d12e28]">
-          <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-            <h2 className="text-xl text-center  w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
-              Ready to transform your customer experience?
-            </h2>
+          <a
+            href="brochure3.pdf"
+            className="block  hover:bg-orange-400 px-4 py-2 text-color1 bg-color3 rounded mt-4 text-center"
+            download
+          >
+            Download the buyer's guide
+          </a>
+        </div>
+      </div> */}
+      <Build />
+      {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
+      <div className="md:px-20 py-10 bg-[#d12e28]">
+        <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
+          <h2 className="text-xl text-center sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
+            Ready to transform your customer experience?
+          </h2>
 
-            <button className="mx-auto mt-5 md:mt-0 col-span-2 px-6 py-3 rounded-lg bg-color3 text-white font-semibold hover:bg-opacity-80 transition duration-300">
-              Request a demo
-            </button>
-          </div>
+          <button className="mx-auto mt-5 md:mt-0 col-span-2 px-6 py-3 rounded-lg bg-color3 text-white font-semibold hover:bg-opacity-80 transition duration-300">
+            Request a demo
+          </button>
         </div>
       </div>
+    </div>
     </>
   );
 };

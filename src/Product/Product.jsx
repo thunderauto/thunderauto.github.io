@@ -113,7 +113,7 @@ const Mobile = () => {
             <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
             Efficient & Safe Car Lift for Garages & Workshops
             </h1>
-            <p >
+            <p className="mb-6 ">
               Experience the seamless integration of advanced technology with
               Thunder Portable Car Lift. This cutting-edge system enhances the
               self-service landscape by providing efficient solutions for
@@ -124,7 +124,7 @@ const Mobile = () => {
             </p>
             <a
               href="brochure1.pdf"
-              className="block  hover:bg-[#2d5f98] px-2 py-2 text-color1 bg-color3 rounded mt-4 sm:mt-0 text-center"
+              className="block  hover:bg-[#2d5f98] px-4 py-2 text-color1 bg-color3 rounded mt-4 sm:mt-0 text-center"
               download
             >
               Download the brochure
@@ -234,11 +234,10 @@ const Product = () => {
       <Mobile />
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
-        <div className="flex gap-5 flex-col md:flex-row items-center justify-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl text-center  md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
-            Crafting the perfect Mobile Lift Solution : A Guide
-          </h2>
-
+        <div className="flex gap-5 flex-col md:flex-row items-center justify-center max-w-7xl w-full mx-auto p-2">
+   <h2 className="text-xl text-center sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
+  Crafting the perfect Mobile Lift Solution : A Guide
+</h2>
           <a
             href="brochure1.pdf"
             className="block  hover:bg-[#2d5f98] px-4 py-2 text-color1 bg-color3 rounded mt-4 sm:mt-0 text-center"
@@ -252,7 +251,7 @@ const Product = () => {
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl text-center  w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
+          <h2 className="text-xl text-center sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
             Ready to transform your customer experience?
           </h2>
 
