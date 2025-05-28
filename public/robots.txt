@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.thunder-auto.in/sitemap.xml
+Sitemap: https://thunderauto.vercel.app/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/
