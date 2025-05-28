@@ -7,6 +7,7 @@ import { TbAerialLift } from "react-icons/tb";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import SEOComponent from './SEOComponent';
+import { useMemo } from 'react';
 
 const Menu = ({ title, desc, i }) => {
   const [isChecked, setIsChecked] = useState(false);
@@ -72,11 +73,44 @@ const Quote = () => {
     }, 
   ];
 
-  const cara = [
-    ["./icon/1.jpg", "./icon/1.png", "./icon/8.png"],
-    ["./icon/2.png", "./icon/3.png", "./icon/4.png"],
-    ["./icon/5.png", "./icon/6.png", "./icon/7.png"],
-  ];
+  const cara = useMemo(() => [
+    {
+      src: "./icon/1.jpg",
+      alt: "Client logo 1"
+    },
+    {
+      src: "./icon/1.png",
+      alt: "Client logo 2"
+    },
+    {
+      src: "./icon/8.png",
+      alt: "Client logo 3"
+    },
+    // {
+    //   src: "./icon/2.png",
+    //   alt: "Client logo 4"
+    // },
+    // {
+    //   src: "./icon/3.png",
+    //   alt: "Client logo 5"
+    // },
+    {
+      src: "./icon/4.png",
+      alt: "Client logo 6"
+    },
+    {
+      src: "./icon/5.png",
+      alt: "Client logo 7"
+    },
+    {
+      src: "./icon/6.png",
+      alt: "Client logo 8"
+    },
+    {
+      src: "./icon/7.png",
+      alt: "Client logo 9"
+    }
+  ], []);
   return (
     <>
      <SEOComponent
@@ -128,19 +162,27 @@ const Quote = () => {
         </h2>
         <div className="mx-auto w-full h-56">
           <Carousel pauseOnHover>
-            {cara.map((item, index) => (
-              <div className="grid md:grid-cols-3 gap-5" key={index}>
-                {item.map((data, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center justify-center relative group"
-                  >
-                    {/* <div className=" group-hover:block absolute top-0 left-0 w-full h-full bg-[rgb(0,0,0,.5)]"></div> */}
-                    <img src={data} style={{ filter: 'grayscale(100%)' }}  />
+           {cara.map((image, index) => (
+                <div
+                  key={index}
+                  className="flex items-center justify-center h-full w-full"
+                >
+                  <div className="relative w-full h-full max-w-xs sm:max-w-sm md:max-w-md mx-auto flex items-center justify-center">
+                    <img 
+                      src={image.src}
+                      alt={image.alt}
+                      loading="lazy"
+                      decoding="async"
+                      className="max-h-full max-w-full object-contain transition-all duration-300 hover:filter-none"
+                      style={{ 
+                        filter: 'grayscale(100%)',
+                        contentVisibility: 'auto'
+                      }}
+                      fetchPriority={index < 3 ? "high" : "low"}
+                    />
                   </div>
-                ))}
-              </div>
-            ))}
+                </div>
+              ))}
           </Carousel>
         </div>
       </div>

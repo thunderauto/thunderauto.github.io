@@ -17,14 +17,14 @@ const Mobile = () => {
     <div className="">
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col sm:flex-row justify-between ">
-          <div className="flex flex-col w-full sm:w-1/2 py-10">
+          <div className="flex flex-col w-full sm:w-1/2 py-10 p-2">
             <h2 className="text-lg  text-[#2d5f98] mb-4">
               Thunder Aluminium Ingots
             </h2>
             <h1 className="text-4xl font-bold mb-8 text-center sm:text-left">
             High-Quality Aluminium Ingots for Industrial Use
             </h1>
-            <p className="mb-6 text-center sm:text-left">
+            <p >
               Thunder Auto LLP is a leading name in the field of aluminium
               recycling, offering comprehensive solutions for industries looking
               to recycle aluminium scrap. With a commitment to sustainability
@@ -241,7 +241,7 @@ const Product = () => {
       {/* <div className="md:px-20 py-10 bg-gradient-to-r from-[#2d5f98] via-[#d12e28] to-[#d12e28]"> */}
       <div className="md:px-20 py-10 bg-[#d12e28]">
         <div className="flex flex-col md:flex-row items-center max-w-7xl w-full mx-auto">
-          <h2 className="text-xl text-center md:text-left w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
+          <h2 className="text-xl text-center  w-1/2 sm:text-3xl mt-2 text-color3 font-bold font-Mont text-white">
             Ready to transform your customer experience?
           </h2>
 
